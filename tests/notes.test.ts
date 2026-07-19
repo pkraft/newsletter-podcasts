@@ -48,6 +48,21 @@ test("real newsletter HTML produces clean notes", { skip: !existsSync(REAL_NEWSL
   assert.ok(n.plainText.length > 500);
 });
 
+test("nested email divs never produce nested paragraphs", () => {
+  const n = renderNotes("<div>outer <div>inner</div> tail</div>", "html");
+  let depth = 0;
+  let maxDepth = 0;
+  for (const m of n.pageHtml.matchAll(/<(\/?)p>/g)) {
+    depth += m[1] ? -1 : 1;
+    maxDepth = Math.max(maxDepth, depth);
+    assert.ok(depth >= 0, "unbalanced </p>");
+  }
+  assert.equal(depth, 0, "unbalanced <p>");
+  assert.equal(maxDepth, 1, `nested <p> found in: ${n.pageHtml}`);
+  assert.ok(n.plainText.includes("outer"));
+  assert.ok(n.plainText.includes("inner"));
+});
+
 test("plain text strips entities and tags", () => {
   const n = renderNotes("<p>A &amp; B &mdash; C</p>", "html");
   assert.ok(n.plainText.startsWith("A & B"));

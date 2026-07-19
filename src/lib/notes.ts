@@ -51,9 +51,33 @@ function sanitize(html: string): string {
   });
 }
 
+/** Nested email divs each become <p>, producing invalid nested paragraphs.
+ *  Linearize them into siblings: <p>a<p>b</p>c</p> → <p>a</p><p>bc</p>.
+ *  Safe because sanitize() emits only bare <p> tags (no attributes). */
+function flattenParagraphs(html: string): string {
+  let out = "";
+  let last = 0;
+  let depth = 0;
+  const re = /<(\/?)p>/g;
+  let m = re.exec(html);
+  while (m !== null) {
+    out += html.slice(last, m.index);
+    last = m.index + m[0].length;
+    if (m[1] === "") {
+      depth++;
+      out += depth === 1 ? "<p>" : "</p><p>";
+    } else if (depth > 0) {
+      depth--;
+      out += depth === 0 ? "</p>" : "";
+    }
+    m = re.exec(html);
+  }
+  return out + html.slice(last);
+}
+
 /** Collapse the empty paragraphs and whitespace runs that email-table flattening leaves. */
 function tidy(html: string): string {
-  return html
+  return flattenParagraphs(html)
     .replace(/<p>\s*<\/p>/g, "")
     .replace(/(\r?\n)[ \t]+/g, "\n")
     .replace(/\n{3,}/g, "\n\n")
