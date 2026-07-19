@@ -2,16 +2,16 @@
   "id": "e2e-test-issue-1",
   "guid": "b28c5c5e-9161-52de-8d37-160420b4b814",
   "externalId": "e2e-test-issue-1",
-  "title": "Pipeline Test Episode",
+  "title": "Pipeline Test Episode (updated)",
   "summary": "End-to-end test of the newsletter-podcasts publishing pipeline. Safe to unpublish.",
   "publishDate": "2026-07-19T12:00:00Z",
   "status": "published",
   "audio": {
     "file": "audio.mp3",
-    "bytes": 1083981,
+    "bytes": 1084001,
     "durationSeconds": 60.029388,
     "mimeType": "audio/mpeg"
   },
   "ingestedAt": "2026-07-19T18:54:55.905Z",
-  "updatedAt": "2026-07-19T18:54:55.905Z"
+  "updatedAt": "2026-07-19T18:56:57.117Z"
 }
