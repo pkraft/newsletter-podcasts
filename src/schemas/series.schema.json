@@ -30,6 +30,16 @@
     "explicit": { "type": "boolean" },
     "themeColor": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
     "link": { "type": "string", "format": "uri" },
-    "status": { "enum": ["active", "archived"] }
+    "status": { "enum": ["active", "archived"] },
+    "directories": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "apple": { "type": "string", "format": "uri" },
+        "spotify": { "type": "string", "format": "uri" },
+        "amazon": { "type": "string", "format": "uri" },
+        "podcastIndex": { "type": "string", "format": "uri" }
+      }
+    }
   }
 }

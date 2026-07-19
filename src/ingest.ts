@@ -8,6 +8,7 @@ import {
 } from "./lib/audio.js";
 import { episodeDir, loadSeries, seriesDir } from "./lib/content.js";
 import { fetchAsset, MAX_AUDIO_BYTES, MAX_TEXT_BYTES } from "./lib/fetchAsset.js";
+import { sniffSourceKind } from "./lib/notes.js";
 import { episodeGuid } from "./lib/uuid.js";
 import { assertValid, validateEpisode, validatePayload } from "./lib/validate.js";
 import type { EpisodeMeta, PublishPayload } from "./types.js";
@@ -102,7 +103,10 @@ async function main(): Promise<void> {
       maxBytes: MAX_TEXT_BYTES,
       label: "source text",
     });
-    writeFileSync(join(dir, "notes.md"), source.bytes);
+    const body = source.bytes.toString("utf8");
+    const kind = sniffSourceKind(payload.source_text_url, source.contentType, body);
+    // Raw source is stored; the build renders sanitized show notes from it.
+    writeFileSync(join(dir, `source.${kind}`), source.bytes);
   }
 
   // Idempotent update: guid and ingestedAt survive re-ingest; a manual admin

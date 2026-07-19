@@ -24,10 +24,31 @@ export function episodeAudioUrl(site: SiteConfig, seriesId: string, episodeId: s
   return `${seriesUrl(site, seriesId)}/episodes/${episodeId}/audio.mp3`;
 }
 
+/** Per-episode render extras produced by the build (keyed by episode id). */
+export interface EpisodeExtras {
+  /** Sanitized limited HTML for <content:encoded>. */
+  rssHtml?: string;
+  /** Transcript formats available as static files next to the audio. */
+  transcripts?: { vtt?: boolean; srt?: boolean; json?: boolean; txt?: boolean };
+}
+
+const TRANSCRIPT_TYPES: Record<string, string> = {
+  vtt: "text/vtt",
+  srt: "application/x-subrip",
+  json: "application/json",
+  txt: "text/plain",
+};
+
+/** CDATA-escape: a literal "]]>" inside content must be split across sections. */
+function cdata(html: string): string {
+  return `<![CDATA[${html.replaceAll("]]>", "]]]]><![CDATA[>")}]]>`;
+}
+
 export function generateFeed(
   series: SeriesConfig,
   episodes: EpisodeMeta[],
   site: SiteConfig,
+  extras: Record<string, EpisodeExtras> = {},
 ): string {
   const link = series.link ?? seriesUrl(site, series.id);
   const self = feedUrl(site, series.id);
@@ -44,11 +65,21 @@ export function generateFeed(
     .map((e) => {
       const pageUrl = `${seriesUrl(site, series.id)}/episodes/${e.id}/`;
       const audio = episodeAudioUrl(site, series.id, e.id);
-      const numbering = [
+      const extra = extras[e.id] ?? {};
+      const optional = [
         e.season !== undefined ? `<itunes:season>${e.season}</itunes:season>` : "",
         e.episodeNumber !== undefined
           ? `<itunes:episode>${e.episodeNumber}</itunes:episode>`
           : "",
+        extra.rssHtml ? `<content:encoded>${cdata(extra.rssHtml)}</content:encoded>` : "",
+        ...Object.entries(extra.transcripts ?? {})
+          .filter(([, present]) => present)
+          .map(
+            ([ext]) =>
+              `<podcast:transcript url="${esc(
+                `${seriesUrl(site, series.id)}/episodes/${e.id}/transcript.${ext}`,
+              )}" type="${TRANSCRIPT_TYPES[ext]}"/>`,
+          ),
       ]
         .filter(Boolean)
         .join("\n      ");
@@ -60,7 +91,7 @@ export function generateFeed(
       <description>${esc(e.summary)}</description>
       <enclosure url="${esc(enclosureUrl(audio, site.op3))}" length="${e.audio.bytes}" type="audio/mpeg"/>
       <itunes:duration>${Math.round(e.audio.durationSeconds)}</itunes:duration>
-      <itunes:explicit>${series.explicit}</itunes:explicit>${numbering ? `\n      ${numbering}` : ""}
+      <itunes:explicit>${series.explicit}</itunes:explicit>${optional ? `\n      ${optional}` : ""}
     </item>`;
     })
     .join("\n");
@@ -80,7 +111,7 @@ export function generateFeed(
     <generator>newsletter-podcasts</generator>
     <lastBuildDate>${published[0] ? rfc2822(published[0].publishDate) : rfc2822(new Date(0).toISOString())}</lastBuildDate>
     <podcast:guid>${podcastGuid(self)}</podcast:guid>
-    <itunes:type>episodic</itunes:type>
+    <itunes:type>episodic</itunes:type>${series.subtitle ? `\n    <itunes:subtitle>${esc(series.subtitle)}</itunes:subtitle>` : ""}
     <itunes:author>${esc(series.author)}</itunes:author>
     <itunes:owner>
       <itunes:name>${esc(series.ownerName)}</itunes:name>

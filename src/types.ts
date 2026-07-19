@@ -13,6 +13,13 @@ export interface SeriesConfig {
   themeColor?: string;
   link?: string;
   status: "active" | "archived";
+  /** Directory listing URLs, filled in as the series is accepted (M4 checklist). */
+  directories?: {
+    apple?: string;
+    spotify?: string;
+    amazon?: string;
+    podcastIndex?: string;
+  };
 }
 
 export interface EpisodeAudio {

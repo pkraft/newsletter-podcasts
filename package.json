@@ -18,11 +18,14 @@
   "dependencies": {
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
-    "node-id3": "^0.2.9"
+    "marked": "^18.0.6",
+    "node-id3": "^0.2.9",
+    "sanitize-html": "^2.17.6"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.10.0",
+    "@types/sanitize-html": "^2.16.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }
