@@ -246,11 +246,13 @@ Headers: `Authorization: Bearer <PAT>`, `Accept: application/vnd.github+json`
 
 ## 12. Decisions (resolved 2026-07-19)
 
-1. **Custom domain: `podcast-ai-news.petekraft.com`.** All public assets (feeds,
+1. **Custom domain: `podcasts.petekraft.com`.** All public assets (feeds,
    audio, episode pages, admin UI) are served from this domain from day one, before
    the first directory submission. DNS: CNAME to the GitHub Pages host.
+   *(Renamed from `podcast-ai-news.petekraft.com` on 2026-07-19, pre-directory-
+   submission, to be series-neutral — the site hosts multiple series.)*
 2. **Analytics: OP3 confirmed.** Enclosure URLs use the op3.dev prefix
-   (`https://op3.dev/e/podcast-ai-news.petekraft.com/...`); OP3 needs no domain of
+   (`https://op3.dev/e/podcasts.petekraft.com/...`); OP3 needs no domain of
    its own. Stats are public and directional.
 3. **Repo visibility: public.** Free Pages tier; no secrets in the repo.
 4. **Asset delivery: public URLs.** The newsletter system exposes audio/transcript/

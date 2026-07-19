@@ -111,7 +111,7 @@ GitHub issue labeled `pipeline-failure` with the reason. The Node example implem
 this polling pattern.
 
 Verification of final truth: the episode appears in the series RSS feed at
-`https://podcast-ai-news.petekraft.com/{series_id}/feed.xml` (match on your
+`https://podcasts.petekraft.com/{series_id}/feed.xml` (match on your
 `external_id` to episode guid mapping, or title).
 
 ## Error responses at dispatch time

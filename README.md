@@ -2,7 +2,7 @@
 
 Turns newsletter issues (source text + TTS audio + transcript) into professionally
 packaged podcast episodes, hosted entirely on GitHub Pages at
-**https://podcast-ai-news.petekraft.com**.
+**https://podcasts.petekraft.com**.
 
 - **Publish an episode:** the newsletter system sends a `repository_dispatch`
   (`publish-episode`) — see [skills/podcast-publisher/SKILL.md](skills/podcast-publisher/SKILL.md)

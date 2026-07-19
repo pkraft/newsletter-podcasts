@@ -98,14 +98,14 @@ demonstrable state.
 
 ## Decisions (resolved — see PRD §12)
 
-1. ✅ Custom domain from day one: **`podcast-ai-news.petekraft.com`**.
+1. ✅ Custom domain from day one: **`podcasts.petekraft.com`**.
 2. ✅ OP3 for analytics.
 3. ✅ Public repo (free Pages).
 4. ✅ Asset delivery by public URL.
 
 Added by decision 1:
 
-- [x] **1.0 Custom domain setup**: `podcast-ai-news.petekraft.com` — DNS CNAME to the
+- [x] **1.0 Custom domain setup**: `podcasts.petekraft.com` — DNS CNAME to the
       GitHub Pages host, custom-domain config in repo, enforce HTTPS. (OP3 needs no
       separate domain — it prefixes URLs on op3.dev.)
       *Done 2026-07-19. Setup note: the record is **proxied through Cloudflare**
