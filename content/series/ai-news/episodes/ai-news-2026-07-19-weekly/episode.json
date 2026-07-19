@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-19-weekly",
+  "guid": "06c2b921-7356-5192-b904-e55d8c263612",
+  "externalId": "ai-news-2026-07-19-weekly",
+  "title": "AI News Weekly Recap - July 19, 2026",
+  "summary": "The week's real story wasn't any single release - it was three fronts moving at once: Google's flagship model kept missing its own deadlines while DeepMind bled star researchers to rivals, China's open-weight models leapt into the trillion-parameter class and rattled markets, and Anthropic pushed simultaneously toward a mega-IPO, a Blackstone-backed consulting arm, and a safety hiring spree stocked with nuclear and biothreat experts.",
+  "publishDate": "2026-07-19T09:00:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7884293,
+    "durationSeconds": 465.293061,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-19T23:30:28.812Z",
+  "updatedAt": "2026-07-19T23:30:28.812Z"
+}
