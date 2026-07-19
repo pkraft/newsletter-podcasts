@@ -28,10 +28,11 @@ demonstrable state.
       in place; new `external_id` creates new episode with fresh permanent `guid`.
 - [ ] **1.10 Milestone check**: dispatch a real test episode end-to-end; feed passes
       podba.se / Cast Feed Validator; episode plays in a podcast app via feed URL.
-      *Status 2026-07-19: e2e dispatch + idempotent re-dispatch verified on
-      pkraft.github.io; W3C feed validator passes (one self-link warning that clears
-      once DNS is live). Remaining: DNS CNAME (task 1.0), then set the custom domain
-      in Pages settings and confirm playback in a podcast app.*
+      *Status 2026-07-19: e2e dispatch + idempotent re-dispatch verified; W3C feed
+      validator passes; custom domain live — feed 200, audio 200, byte-range 206,
+      OP3 redirect chain 200, github.io feed URL 301s to the custom domain.
+      Remaining: owner confirms playback in a podcast app (refresh the feed —
+      the earlier "temporarily unavailable" was the pre-DNS 522).*
 
 ## M2 — Professional packaging
 
@@ -99,6 +100,14 @@ demonstrable state.
 
 Added by decision 1:
 
-- [ ] **1.0 Custom domain setup**: `podcast-ai-news.petekraft.com` — DNS CNAME to the
+- [x] **1.0 Custom domain setup**: `podcast-ai-news.petekraft.com` — DNS CNAME to the
       GitHub Pages host, custom-domain config in repo, enforce HTTPS. (OP3 needs no
       separate domain — it prefixes URLs on op3.dev.)
+      *Done 2026-07-19. Setup note: the record is **proxied through Cloudflare**
+      (orange cloud) — TLS terminates at Cloudflare's edge and HTTP→HTTPS is
+      enforced there, so GitHub's own "Enforce HTTPS" stays off (its cert can't
+      provision behind the proxy; that's expected). Cloudflare bot protection
+      blocks generic agents like Python-urllib (including the W3C validator) but
+      passes Apple/Spotify/podcast-app fetchers — if a directory submission fails
+      oddly, check Cloudflare WAF/bot rules first or add a skip rule for this
+      subdomain.*
