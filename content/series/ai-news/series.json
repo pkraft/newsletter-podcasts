@@ -1,8 +1,8 @@
 {
   "id": "ai-news",
-  "title": "AI News",
-  "subtitle": "The AI news newsletter, in audio",
-  "description": "An audio edition of the AI News newsletter: each issue, narrated and delivered as a podcast episode.",
+  "title": "Daily AI Newsletter",
+  "subtitle": "Seriously, what happened today?",
+  "description": "The morning briefing for the post-singularity age. Each issue of the Daily AI Newsletter, narrated and delivered as a podcast episode.",
   "author": "Pete Kraft",
   "ownerName": "Pete Kraft",
   "ownerEmail": "pkraft@gmail.com",
