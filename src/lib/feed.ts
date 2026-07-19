@@ -108,7 +108,7 @@ export function generateFeed(
     <atom:link href="${esc(self)}" rel="self" type="application/rss+xml"/>
     <generator>newsletter-podcasts</generator>
     <lastBuildDate>${published[0] ? rfc2822(published[0].publishDate) : rfc2822(new Date(0).toISOString())}</lastBuildDate>
-    <podcast:guid>${podcastGuid(self)}</podcast:guid>
+    <podcast:guid>${series.podcastGuid ?? podcastGuid(self)}</podcast:guid>
     <itunes:type>episodic</itunes:type>${series.subtitle ? `\n    <itunes:subtitle>${esc(series.subtitle)}</itunes:subtitle>` : ""}
     <itunes:author>${esc(series.author)}</itunes:author>
     <itunes:owner>

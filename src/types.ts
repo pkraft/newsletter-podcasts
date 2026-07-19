@@ -1,5 +1,8 @@
 export interface SeriesConfig {
   id: string;
+  /** Permanent podcast:guid (podcasting 2.0 show identity). Set once at series
+   *  creation and NEVER changed — it must survive feed URL changes. */
+  podcastGuid?: string;
   title: string;
   subtitle?: string;
   description: string;
