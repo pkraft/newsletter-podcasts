@@ -11,6 +11,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   ingest:
@@ -59,3 +60,42 @@ jobs:
       contents: read
       pages: write
       id-token: write
+
+  alert-on-failure:
+    needs: [ingest, build-deploy]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const p = context.payload.client_payload ?? {};
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            try {
+              await github.rest.issues.createLabel({
+                ...context.repo,
+                name: "pipeline-failure",
+                color: "b60205",
+                description: "publish-episode pipeline run failed",
+              });
+            } catch (e) { /* label already exists */ }
+            await github.rest.issues.create({
+              ...context.repo,
+              title: `Pipeline failure: ${p.series_id ?? "?"} / ${p.external_id ?? "?"}`,
+              labels: ["pipeline-failure"],
+              body: [
+                "A publish-episode dispatch failed.",
+                "",
+                `- **Series:** ${p.series_id ?? "(missing)"}`,
+                `- **External ID:** ${p.external_id ?? "(missing)"}`,
+                `- **Title:** ${p.title ?? "(missing)"}`,
+                `- **Audio URL:** ${p.audio_url ?? "(missing)"}`,
+                `- **Run (see logs for the reason):** ${runUrl}`,
+                "",
+                "Common causes: unknown series_id, unreachable asset URL, invalid payload field,",
+                "corrupt/oversized audio. Re-dispatching the same external_id after fixing the",
+                "cause is safe (ingestion is idempotent).",
+              ].join("\n"),
+            });
