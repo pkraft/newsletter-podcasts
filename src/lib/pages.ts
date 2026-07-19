@@ -204,8 +204,7 @@ export function episodePage(i: EpisodePageInput): string {
   if (i.transcriptCues) {
     const cues = i.transcriptCues
       .map(
-        (c) =>
-          `<div class="cue"><span class="t">${fmtCueTime(c.start)}</span>${esc(c.text)}</div>`,
+        (c) => `<div class="cue"><span class="t">${fmtCueTime(c.start)}</span>${esc(c.text)}</div>`,
       )
       .join("\n");
     transcriptBlock = `<details class="transcript"><summary>Transcript</summary>\n${cues}\n</details>`;

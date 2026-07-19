@@ -1,4 +1,4 @@
-import { openSync, readSync, closeSync } from "node:fs";
+import { closeSync, openSync, readSync } from "node:fs";
 
 export interface ImageSize {
   width: number;

@@ -80,9 +80,7 @@ export function toVtt(t: Transcript): string {
 
 export function toSrt(t: Transcript): string {
   return `${t.cues
-    .map(
-      (c, i) => `${i + 1}\n${formatTime(c.start, ",")} --> ${formatTime(c.end, ",")}\n${c.text}`,
-    )
+    .map((c, i) => `${i + 1}\n${formatTime(c.start, ",")} --> ${formatTime(c.end, ",")}\n${c.text}`)
     .join("\n\n")}\n`;
 }
 

@@ -63,8 +63,18 @@ function tidy(html: string): string {
 function toPlainText(html: string): string {
   const text = sanitizeHtml(html, { allowedTags: [], allowedAttributes: {} });
   return text
-    .replace(/&(amp|lt|gt|quot|#39|apos|nbsp);/g, (m) =>
-      ({ "&amp;": "&", "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#39;": "'", "&apos;": "'", "&nbsp;": " " })[m] ?? m,
+    .replace(
+      /&(amp|lt|gt|quot|#39|apos|nbsp);/g,
+      (m) =>
+        ({
+          "&amp;": "&",
+          "&lt;": "<",
+          "&gt;": ">",
+          "&quot;": '"',
+          "&#39;": "'",
+          "&apos;": "'",
+          "&nbsp;": " ",
+        })[m] ?? m,
     )
     .replace(/[ \t]+/g, " ")
     .replace(/\s*\n\s*/g, "\n")

@@ -68,9 +68,7 @@ export function generateFeed(
       const extra = extras[e.id] ?? {};
       const optional = [
         e.season !== undefined ? `<itunes:season>${e.season}</itunes:season>` : "",
-        e.episodeNumber !== undefined
-          ? `<itunes:episode>${e.episodeNumber}</itunes:episode>`
-          : "",
+        e.episodeNumber !== undefined ? `<itunes:episode>${e.episodeNumber}</itunes:episode>` : "",
         extra.rssHtml ? `<content:encoded>${cdata(extra.rssHtml)}</content:encoded>` : "",
         ...Object.entries(extra.transcripts ?? {})
           .filter(([, present]) => present)

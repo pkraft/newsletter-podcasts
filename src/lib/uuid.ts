@@ -12,10 +12,7 @@ function uuidToBytes(uuid: string): Buffer {
 }
 
 export function uuidV5(name: string, namespace: string): string {
-  const hash = createHash("sha1")
-    .update(uuidToBytes(namespace))
-    .update(name, "utf8")
-    .digest();
+  const hash = createHash("sha1").update(uuidToBytes(namespace)).update(name, "utf8").digest();
   const bytes = Buffer.from(hash.subarray(0, 16));
   bytes[6] = ((bytes[6] as number) & 0x0f) | 0x50; // version 5
   bytes[8] = ((bytes[8] as number) & 0x3f) | 0x80; // RFC 4122 variant

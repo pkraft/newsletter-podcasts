@@ -11,15 +11,15 @@ import {
 } from "./lib/content.js";
 import { type EpisodeExtras, feedUrl, generateFeed } from "./lib/feed.js";
 import { validateCoverArt } from "./lib/imageSize.js";
-import { renderNotes, type ShowNotes } from "./lib/notes.js";
+import { type ShowNotes, renderNotes } from "./lib/notes.js";
 import { episodePage, indexPage, seriesPage } from "./lib/pages.js";
 import {
+  type Transcript,
   parseTranscript,
   toJson,
   toPlainText,
   toSrt,
   toVtt,
-  type Transcript,
 } from "./lib/transcript.js";
 import type { EpisodeMeta, SeriesConfig, SiteConfig } from "./types.js";
 

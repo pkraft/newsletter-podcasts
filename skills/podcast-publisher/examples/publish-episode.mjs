@@ -83,8 +83,7 @@ if (run.conclusion === "success") {
   console.log(`Published. Episode "${episode.title}" will appear in the feed after deploy.`);
 } else {
   console.error(
-    `Pipeline ${run.conclusion}: ${run.html_url}\n` +
-      "A pipeline-failure issue with details was opened on the repo.",
+    `Pipeline ${run.conclusion}: ${run.html_url}\nA pipeline-failure issue with details was opened on the repo.`,
   );
   process.exit(1);
 }

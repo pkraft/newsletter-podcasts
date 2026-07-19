@@ -1,13 +1,15 @@
-import { appendFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
 import {
-  needsReencode,
-  probe,
-  reencode,
-  writeTags,
-} from "./lib/audio.js";
+  appendFileSync,
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from "node:fs";
+import { join } from "node:path";
+import { needsReencode, probe, reencode, writeTags } from "./lib/audio.js";
 import { episodeDir, loadSeries, seriesDir } from "./lib/content.js";
-import { fetchAsset, MAX_AUDIO_BYTES, MAX_TEXT_BYTES } from "./lib/fetchAsset.js";
+import { MAX_AUDIO_BYTES, MAX_TEXT_BYTES, fetchAsset } from "./lib/fetchAsset.js";
 import { sniffSourceKind } from "./lib/notes.js";
 import { episodeGuid } from "./lib/uuid.js";
 import { assertValid, validateEpisode, validatePayload } from "./lib/validate.js";
@@ -118,7 +120,11 @@ async function main(): Promise<void> {
     title: payload.title,
     summary: payload.summary,
     publishDate: payload.publish_date,
-    status: existing ? existing.status : payload.auto_publish === false ? "unpublished" : "published",
+    status: existing
+      ? existing.status
+      : payload.auto_publish === false
+        ? "unpublished"
+        : "published",
     audio: {
       file: "audio.mp3",
       bytes: finalBytes,

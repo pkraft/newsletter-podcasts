@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import type { EpisodeMeta, SeriesConfig, SiteConfig } from "../types.js";
 import { assertValid, validateEpisode, validateSeries } from "./validate.js";
