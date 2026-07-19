@@ -26,13 +26,11 @@ demonstrable state.
       `actions/deploy-pages`; ingest commits content then triggers build.
 - [x] **1.9 Idempotency**: re-dispatch with same (`series_id`, `external_id`) updates
       in place; new `external_id` creates new episode with fresh permanent `guid`.
-- [ ] **1.10 Milestone check**: dispatch a real test episode end-to-end; feed passes
+- [x] **1.10 Milestone check**: dispatch a real test episode end-to-end; feed passes
       podba.se / Cast Feed Validator; episode plays in a podcast app via feed URL.
-      *Status 2026-07-19: e2e dispatch + idempotent re-dispatch verified; W3C feed
-      validator passes; custom domain live — feed 200, audio 200, byte-range 206,
-      OP3 redirect chain 200, github.io feed URL 301s to the custom domain.
-      Remaining: owner confirms playback in a podcast app (refresh the feed —
-      the earlier "temporarily unavailable" was the pre-DNS 522).*
+      *Done 2026-07-19: e2e dispatch + idempotent re-dispatch verified; W3C feed
+      validator passes; custom domain live (feed 200, audio 200, byte-range 206,
+      OP3 chain 200); owner confirmed playback in a podcast app. **M1 complete.***
 
 ## M2 — Professional packaging
 
