@@ -5,29 +5,33 @@ demonstrable state.
 
 ## M1 — Core pipeline (walking skeleton)
 
-- [ ] **1.1 Repo scaffold**: init git repo, Node 22 + TypeScript project, lint/format,
+- [x] **1.1 Repo scaffold**: init git repo, Node 22 + TypeScript project, lint/format,
       directory layout per PRD §6, README.
-- [ ] **1.2 Series config schema**: JSON Schema for `series.json`; create the first
+- [x] **1.2 Series config schema**: JSON Schema for `series.json`; create the first
       series by hand with real branding values.
-- [ ] **1.3 Episode schema**: JSON Schema for `episode.json` (incl. `guid`,
+- [x] **1.3 Episode schema**: JSON Schema for `episode.json` (incl. `guid`,
       `external_id`, `status`).
-- [ ] **1.4 Ingest workflow** (`ingest.yml`): triggered by `repository_dispatch`
+- [x] **1.4 Ingest workflow** (`ingest.yml`): triggered by `repository_dispatch`
       (`publish-episode`); validates payload against schema; concurrency group per
       series; clear failure messages.
-- [ ] **1.5 Asset fetcher**: download audio/transcript/source text from payload URLs
+- [x] **1.5 Asset fetcher**: download audio/transcript/source text from payload URLs
       with size/type checks and retries.
-- [ ] **1.6 Audio processor**: verify MP3, write ID3v2 tags + embedded artwork, compute
+- [x] **1.6 Audio processor**: verify MP3, write ID3v2 tags + embedded artwork, compute
       duration/bytes (ffprobe + node ID3 lib). Probe encoding: if VBR or off-spec
       (sample rate ≠ 44.1 kHz, extreme bitrate), re-encode to CBR 128 kbps / 44.1 kHz;
       otherwise pass through untouched (no generation loss on good files).
-- [ ] **1.7 Feed generator**: RSS 2.0 + `itunes:`/`podcast:` namespaces from content
+- [x] **1.7 Feed generator**: RSS 2.0 + `itunes:`/`podcast:` namespaces from content
       files; only `published` episodes; unit tests against known-good fixture.
-- [ ] **1.8 Build & deploy workflow**: generator builds `_site/`, deploy with
+- [x] **1.8 Build & deploy workflow**: generator builds `_site/`, deploy with
       `actions/deploy-pages`; ingest commits content then triggers build.
-- [ ] **1.9 Idempotency**: re-dispatch with same (`series_id`, `external_id`) updates
+- [x] **1.9 Idempotency**: re-dispatch with same (`series_id`, `external_id`) updates
       in place; new `external_id` creates new episode with fresh permanent `guid`.
 - [ ] **1.10 Milestone check**: dispatch a real test episode end-to-end; feed passes
       podba.se / Cast Feed Validator; episode plays in a podcast app via feed URL.
+      *Status 2026-07-19: e2e dispatch + idempotent re-dispatch verified on
+      pkraft.github.io; W3C feed validator passes (one self-link warning that clears
+      once DNS is live). Remaining: DNS CNAME (task 1.0), then set the custom domain
+      in Pages settings and confirm playback in a podcast app.*
 
 ## M2 — Professional packaging
 
