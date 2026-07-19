@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-17",
+  "guid": "bd791239-1f6b-5162-aa94-a1f86fbbd77a",
+  "externalId": "ai-news-2026-07-17",
+  "title": "AI News Daily - July 17, 2026",
+  "summary": "The frontier race is being decided on plumbing, not demos. Google scrapped and rebuilt Gemini 3.5 Pro to fix its coding weakness and is targeting launch today; NVIDIA shipped a chart-topping open embedding family; and Fireworks raised $1.5B on the economics of serving open models cheaply. Meanwhile GPT-5.6 Sol posted the first real score on the brutal ARC-AGI-3 reasoning benchmark, and Google folded NotebookLM into the Gemini brand.",
+  "publishDate": "2026-07-17T13:41:01-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 4294845,
+    "durationSeconds": 240.953469,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-19T23:26:08.890Z",
+  "updatedAt": "2026-07-19T23:26:08.890Z"
+}
