@@ -86,7 +86,14 @@ demonstrable state.
       **`skills/podcast-publisher/`** agent skill (SKILL.md + payload schema +
       examples) already covers the contract — keep it as the single source of truth
       and verify it matches the implemented pipeline (schema, timings, error labels).
-- [ ] **4.5 Milestone check**: submit first series to directories; stats appear in UI.
+- [ ] **4.5 Cloudflare cache metrics per episode**: scheduled workflow (daily cron)
+      queries Cloudflare's GraphQL Analytics API (token + zone id as Actions
+      secrets — owner creates both; Analytics:Read scope) for requests under
+      `/{series}/episodes/*`; accumulates per-episode requests / cache-hit ratio /
+      bandwidth into `content/analytics/cloudflare.json` (free plan retains
+      per-path data ~7 days, hence daily collection); admin UI charts it next to
+      OP3 downloads. Browser can't call the CF API directly (no CORS).
+- [ ] **4.6 Milestone check**: submit first series to directories; stats appear in UI.
 
 ## M5 — Hardening
 
