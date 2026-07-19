@@ -66,10 +66,12 @@ demonstrable state.
       title/summary/notes; delete with confirmation. Each action = commit + rebuild
       trigger, with progress feedback until deploy completes.
 - [x] **3.5 Settings page**: base URL/custom domain, OP3 toggle, series defaults.
-- [ ] **3.6 Milestone check**: full admin walkthrough — create series, ingest via API,
+- [x] **3.6 Milestone check**: full admin walkthrough — create series, ingest via API,
       unpublish, republish, edit — without touching git directly.
-      *Built and deployed 2026-07-19; login page verified in browser. Awaiting
-      owner walkthrough with a real PAT (agent cannot enter tokens into pages).*
+      *Done 2026-07-19: owner completed the walkthrough — PAT login, unpublish +
+      republish of the 2026-07-19 episode via the UI, both commits deployed and
+      verified live (feed 0→1 items, page 404→200). Initial 403 was a PAT with
+      read-only Contents; fixed by granting read/write. **M3 complete.***
 
 ## M4 — Analytics & distribution
 
