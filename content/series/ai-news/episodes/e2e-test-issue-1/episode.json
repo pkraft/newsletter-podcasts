@@ -5,7 +5,7 @@
   "title": "Pipeline Test Episode (updated)",
   "summary": "End-to-end test of the newsletter-podcasts publishing pipeline. Safe to unpublish.",
   "publishDate": "2026-07-19T12:00:00Z",
-  "status": "published",
+  "status": "unpublished",
   "audio": {
     "file": "audio.mp3",
     "bytes": 1729215,

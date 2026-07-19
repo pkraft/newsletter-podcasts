@@ -34,17 +34,17 @@ demonstrable state.
 
 ## M2 — Professional packaging
 
-- [ ] **2.1 Transcript converter**: accept VTT/SRT/plain text → emit VTT + SRT + JSON;
+- [x] **2.1 Transcript converter**: accept VTT/SRT/plain text → emit VTT + SRT + JSON;
       `podcast:transcript` tags in feed.
-- [ ] **2.2 Show-notes renderer**: Markdown/HTML source text → sanitized episode-page
+- [x] **2.2 Show-notes renderer**: Markdown/HTML source text → sanitized episode-page
       HTML + limited-HTML `content:encoded` for RSS.
-- [ ] **2.3 Artwork pipeline**: validate uploads (square, 1400–3000 px), derive sizes,
+- [x] **2.3 Artwork pipeline**: validate uploads (square, 1400–3000 px), derive sizes,
       embed in MP3, reference in feed/pages.
-- [ ] **2.4 Series landing page**: artwork, description, subscribe buttons, episode
+- [x] **2.4 Series landing page**: artwork, description, subscribe buttons, episode
       list; responsive, theme color, light/dark.
-- [ ] **2.5 Episode page**: audio player, show notes, collapsible transcript, share
+- [x] **2.5 Episode page**: audio player, show notes, collapsible transcript, share
       links, metadata.
-- [ ] **2.6 Site index**: root page listing all active series.
+- [x] **2.6 Site index**: root page listing all active series.
 - [ ] **2.7 Milestone check**: visual review of pages; feed re-validates; Lighthouse
       pass on public pages.
 
