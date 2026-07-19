@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pkraft/newsletter-podcasts/skills/podcast-publisher/references/payload.schema.json",
+  "title": "publish-episode client_payload",
+  "description": "Schema for the client_payload of the publish-episode repository_dispatch event. The full dispatch body is {\"event_type\": \"publish-episode\", \"client_payload\": <this object>}.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["series_id", "external_id", "title", "summary", "publish_date", "audio_url"],
+  "properties": {
+    "series_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$",
+      "description": "ID of an existing podcast series, assigned by the podcast admin. Never auto-created."
+    },
+    "external_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "description": "Consumer's stable ID for this newsletter issue. Idempotency key: re-sending the same (series_id, external_id) updates the episode instead of duplicating it."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "description": "Episode title. Plain text, no HTML."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000,
+      "description": "Episode description shown in podcast players. Plain text."
+    },
+    "publish_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 datetime with timezone. Future dates do not schedule; the episode publishes on ingest."
+    },
+    "audio_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Publicly fetchable HTTPS URL of the MP3 at call time. MP3 only; CBR 96-128 kbps 44.1 kHz preferred (off-spec files are re-encoded by the pipeline)."
+    },
+    "transcript_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Optional. Publicly fetchable HTTPS URL of the transcript. VTT preferred; SRT or plain text accepted."
+    },
+    "source_text_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Optional. Publicly fetchable HTTPS URL of the newsletter body (Markdown or HTML). Becomes show notes; HTML is sanitized."
+    },
+    "auto_publish": {
+      "type": "boolean",
+      "default": true,
+      "description": "true = publish immediately; false = ingest as draft for manual publish in the admin UI."
+    }
+  }
+}

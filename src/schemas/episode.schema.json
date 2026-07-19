@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pkraft/newsletter-podcasts/src/schemas/episode.schema.json",
+  "title": "episode.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "guid",
+    "externalId",
+    "title",
+    "summary",
+    "publishDate",
+    "status",
+    "audio",
+    "ingestedAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,126}[a-z0-9]$" },
+    "guid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "externalId": { "type": "string", "minLength": 1, "maxLength": 128 },
+    "title": { "type": "string", "minLength": 1, "maxLength": 255 },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 4000 },
+    "publishDate": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["published", "unpublished"] },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "bytes", "durationSeconds", "mimeType"],
+      "properties": {
+        "file": { "type": "string" },
+        "bytes": { "type": "integer", "minimum": 1 },
+        "durationSeconds": { "type": "number", "exclusiveMinimum": 0 },
+        "mimeType": { "const": "audio/mpeg" }
+      }
+    },
+    "season": { "type": "integer", "minimum": 1 },
+    "episodeNumber": { "type": "integer", "minimum": 1 },
+    "ingestedAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

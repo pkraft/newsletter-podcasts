@@ -1,0 +1,14 @@
+{
+  "id": "ai-news",
+  "title": "AI News",
+  "subtitle": "The AI news newsletter, in audio",
+  "description": "An audio edition of the AI News newsletter: each issue, narrated and delivered as a podcast episode.",
+  "author": "Pete Kraft",
+  "ownerName": "Pete Kraft",
+  "ownerEmail": "pkraft@gmail.com",
+  "language": "en-us",
+  "category": "Technology",
+  "explicit": false,
+  "themeColor": "#1a56db",
+  "status": "active"
+}

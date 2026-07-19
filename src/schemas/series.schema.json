@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pkraft/newsletter-podcasts/src/schemas/series.schema.json",
+  "title": "series.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "description",
+    "author",
+    "ownerName",
+    "ownerEmail",
+    "language",
+    "category",
+    "explicit",
+    "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$" },
+    "title": { "type": "string", "minLength": 1, "maxLength": 255 },
+    "subtitle": { "type": "string", "maxLength": 255 },
+    "description": { "type": "string", "minLength": 1, "maxLength": 4000 },
+    "author": { "type": "string", "minLength": 1 },
+    "ownerName": { "type": "string", "minLength": 1 },
+    "ownerEmail": { "type": "string", "format": "email" },
+    "language": { "type": "string", "pattern": "^[a-z]{2}(-[a-zA-Z]{2})?$" },
+    "category": { "type": "string", "minLength": 1 },
+    "subcategory": { "type": "string" },
+    "explicit": { "type": "boolean" },
+    "themeColor": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+    "link": { "type": "string", "format": "uri" },
+    "status": { "enum": ["active", "archived"] }
+  }
+}
