@@ -1,0 +1,227 @@
+:root {
+  --theme: #1a56db;
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --text: #14181f;
+  --muted: #5b6572;
+  --border: #e4e7ec;
+  --danger: #b42318;
+  --ok: #067647;
+  --warn: #b54708;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1117;
+    --surface: #171c24;
+    --text: #e8eaee;
+    --muted: #9aa4b1;
+    --border: #2a313c;
+    --danger: #f97066;
+    --ok: #47cd89;
+    --warn: #fdb022;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.55;
+  font-size: 15px;
+}
+a {
+  color: var(--theme);
+}
+.wrap {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+nav.top {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+nav.top .brand {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+nav.top a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 600;
+}
+nav.top a.active,
+nav.top a:hover {
+  color: var(--theme);
+}
+nav.top .spacer {
+  flex: 1;
+}
+nav.top .user {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+h1 {
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+.chip {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid var(--border);
+}
+.chip.ok {
+  color: var(--ok);
+  border-color: var(--ok);
+}
+.chip.warn {
+  color: var(--warn);
+  border-color: var(--warn);
+}
+.chip.err {
+  color: var(--danger);
+  border-color: var(--danger);
+}
+.chip.muted {
+  color: var(--muted);
+}
+button,
+.btn {
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+button.primary {
+  background: var(--theme);
+  border-color: var(--theme);
+  color: #fff;
+}
+button.danger {
+  color: var(--danger);
+  border-color: var(--danger);
+  background: transparent;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+form.stack label {
+  display: block;
+  margin: 0.8rem 0 0.2rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+textarea,
+select {
+  font: inherit;
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+.row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row.between {
+  justify-content: space-between;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: left;
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+th {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.muted {
+  color: var(--muted);
+}
+.small {
+  font-size: 0.85rem;
+}
+.error {
+  background: color-mix(in srgb, var(--danger) 10%, transparent);
+  border: 1px solid var(--danger);
+  color: var(--danger);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  margin: 0.8rem 0;
+}
+.notice {
+  background: color-mix(in srgb, var(--theme) 8%, transparent);
+  border: 1px solid var(--theme);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  margin: 0.8rem 0;
+}
+.login-box {
+  max-width: 26rem;
+  margin: 5rem auto;
+}
+dialog {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.3rem;
+  max-width: 32rem;
+  width: 90%;
+}
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}

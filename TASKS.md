@@ -57,17 +57,19 @@ demonstrable state.
 
 ## M3 — Admin UI (SPA at /admin)
 
-- [ ] **3.1 SPA scaffold** (Vite + React + TS) served from Pages at `/admin`; PAT login
+- [x] **3.1 SPA scaffold** (Vite + React + TS) served from Pages at `/admin`; PAT login
       → `sessionStorage`; GitHub API client with error handling.
-- [ ] **3.2 Dashboard**: series list, recent episodes, latest pipeline runs w/ status.
-- [ ] **3.3 Series CRUD**: create/edit forms with validation, artwork upload (base64
+- [x] **3.2 Dashboard**: series list, recent episodes, latest pipeline runs w/ status.
+- [x] **3.3 Series CRUD**: create/edit forms with validation, artwork upload (base64
       commit via API), archive toggle.
-- [ ] **3.4 Episode management**: list w/ status; publish/unpublish toggle; edit
+- [x] **3.4 Episode management**: list w/ status; publish/unpublish toggle; edit
       title/summary/notes; delete with confirmation. Each action = commit + rebuild
       trigger, with progress feedback until deploy completes.
-- [ ] **3.5 Settings page**: base URL/custom domain, OP3 toggle, series defaults.
+- [x] **3.5 Settings page**: base URL/custom domain, OP3 toggle, series defaults.
 - [ ] **3.6 Milestone check**: full admin walkthrough — create series, ingest via API,
       unpublish, republish, edit — without touching git directly.
+      *Built and deployed 2026-07-19; login page verified in browser. Awaiting
+      owner walkthrough with a real PAT (agent cannot enter tokens into pages).*
 
 ## M4 — Analytics & distribution
 

@@ -6,6 +6,8 @@ on:
     paths:
       - "content/**"
       - "src/**"
+      - "admin/**"
+      - "vite.config.ts"
       - "site.config.json"
       - ".github/workflows/build-deploy.yml"
   workflow_dispatch:
@@ -41,6 +43,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - run: npm run build:admin
 
       - uses: actions/upload-pages-artifact@v3
         with:

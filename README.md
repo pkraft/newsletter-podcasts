@@ -11,6 +11,9 @@ packaged podcast episodes, hosted entirely on GitHub Pages at
   payload, fetches assets, normalizes/tags the MP3, commits the episode, and triggers
   [build-deploy.yml](.github/workflows/build-deploy.yml), which regenerates feeds + pages
   and deploys to Pages.
+- **Admin UI:** https://podcasts.petekraft.com/admin/ — series management,
+  publish/unpublish, settings, pipeline status. Log in with a fine-grained PAT
+  (Contents + Actions read/write on this repo). Source in `admin/`.
 - **Content model:** `content/series/{series}/series.json` and
   `content/series/{series}/episodes/{episode}/` — see [PRD.md](PRD.md) §6.
 - **Docs:** [PRD.md](PRD.md) (requirements & architecture), [TASKS.md](TASKS.md) (plan).

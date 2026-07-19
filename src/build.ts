@@ -74,6 +74,9 @@ async function buildSeries(
   episodes: EpisodeMeta[],
   site: SiteConfig,
 ): Promise<void> {
+  if (series.id === "admin") {
+    throw new Error(`Series id "admin" is reserved (the admin UI is served at /admin).`);
+  }
   const outDir = join(OUT, series.id);
   mkdirSync(join(outDir, "artwork"), { recursive: true });
 
