@@ -2,9 +2,9 @@
   "id": "ai-news-2026-07-19",
   "guid": "3edfd5ee-04ab-5aed-be90-d36a29aa6651",
   "externalId": "ai-news-2026-07-19",
-  "title": "AI News Daily - July 19, 2026",
-  "summary": "The AI trade hit its roughest patch of the year: chip stocks logged their worst week since March 2025 on fears that Moonshot's cheap, powerful Kimi K3 is a 'DeepSeek moment' for US infrastructure spending, and Apple used the dip to reclaim the title of world's most valuable company from NVIDIA. Two frontier-lab safety leaders are on their way out - one over a Pentagon deal he couldn't stomach, the other in a research reorg - while Microsoft and 1Password both shipped new AI security and agent-access tools.",
-  "publishDate": "2026-07-19T18:06:25-05:00",
+  "title": "AI News Daily — July 19, 2026",
+  "summary": "The AI trade hit its roughest patch of the year: chip stocks logged their worst week since March 2025 on fears that Moonshot's cheap, powerful Kimi K3 is a 'DeepSeek moment' for US infrastructure spending, and Apple used the dip to reclaim the title of world's most valuable company from NVIDIA. Two frontier-lab safety leaders are on their way out — one over a Pentagon deal he couldn't stomach, the other in a research reorg — while Microsoft and 1Password both shipped new AI security and agent-access tools.",
+  "publishDate": "2026-07-19T09:04:34-05:00",
   "status": "published",
   "audio": {
     "file": "audio.mp3",
@@ -13,5 +13,5 @@
     "mimeType": "audio/mpeg"
   },
   "ingestedAt": "2026-07-19T23:06:53.790Z",
-  "updatedAt": "2026-07-19T23:06:53.790Z"
+  "updatedAt": "2026-07-20T05:31:38.893Z"
 }
