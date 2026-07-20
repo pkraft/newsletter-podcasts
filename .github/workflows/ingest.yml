@@ -81,9 +81,27 @@ jobs:
                 description: "publish-episode pipeline run failed",
               });
             } catch (e) { /* label already exists */ }
+            // Dedupe: repeated failures for the same episode comment on the
+            // existing open issue instead of opening a new one per attempt.
+            const title = `Pipeline failure: ${p.series_id ?? "?"} / ${p.external_id ?? "?"}`;
+            const existing = await github.rest.issues.listForRepo({
+              ...context.repo,
+              state: "open",
+              labels: "pipeline-failure",
+              per_page: 100,
+            });
+            const dup = existing.data.find((i) => i.title === title);
+            if (dup) {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: dup.number,
+                body: `Failed again: ${runUrl}`,
+              });
+              return;
+            }
             await github.rest.issues.create({
               ...context.repo,
-              title: `Pipeline failure: ${p.series_id ?? "?"} / ${p.external_id ?? "?"}`,
+              title,
               labels: ["pipeline-failure"],
               body: [
                 "A publish-episode dispatch failed.",
