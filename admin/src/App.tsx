@@ -1,6 +1,6 @@
 import { type ReactElement, useEffect, useState } from "react";
 import { getToken, setToken, whoami } from "./github";
-import { Dashboard, Login, NewSeries, SeriesView, Settings } from "./views";
+import { Analytics, Dashboard, Login, NewSeries, SeriesView, Settings } from "./views";
 
 function useHashRoute(): string {
   const [hash, setHash] = useState(window.location.hash || "#/");
@@ -41,6 +41,7 @@ export default function App() {
   let view: ReactElement;
   if (seriesMatch) view = <SeriesView key={seriesMatch[1]} seriesId={seriesMatch[1] as string} />;
   else if (route === "#/new-series") view = <NewSeries />;
+  else if (route === "#/analytics") view = <Analytics />;
   else if (route === "#/settings") view = <Settings />;
   else view = <Dashboard />;
 
@@ -56,6 +57,7 @@ export default function App() {
         <span className="brand">🎙 Podcast Admin</span>
         {navLink("#/", "Dashboard", route === "#/" || route.startsWith("#/series/"))}
         {navLink("#/new-series", "New series", route === "#/new-series")}
+        {navLink("#/analytics", "Analytics", route === "#/analytics")}
         {navLink("#/settings", "Settings", route === "#/settings")}
         <span className="spacer" />
         <span className="user">{user}</span>

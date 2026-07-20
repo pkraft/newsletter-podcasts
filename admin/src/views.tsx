@@ -496,6 +496,36 @@ function SeriesForm({
           </div>
         ),
       )}
+      <h2>Distribution (subscribe links appear on the series page once set)</h2>
+      {(["apple", "spotify", "amazon", "podcastIndex"] as const).map((dir) => (
+        <div key={dir}>
+          <label htmlFor={`sf-dir-${dir}`}>
+            {dir === "podcastIndex" ? "Podcast Index" : dir[0]?.toUpperCase() + dir.slice(1)} URL
+          </label>
+          <input
+            id={`sf-dir-${dir}`}
+            type="url"
+            value={config.directories?.[dir] ?? ""}
+            onChange={(e) =>
+              setConfig((c) => {
+                const directories = { ...c.directories, [dir]: e.target.value || undefined };
+                if (!e.target.value) delete directories[dir];
+                return {
+                  ...c,
+                  directories: Object.keys(directories).length ? directories : undefined,
+                };
+              })
+            }
+            placeholder={
+              dir === "apple"
+                ? "https://podcasts.apple.com/…"
+                : dir === "spotify"
+                  ? "https://open.spotify.com/show/…"
+                  : ""
+            }
+          />
+        </div>
+      ))}
       <div className="row" style={{ marginTop: "0.8rem" }}>
         <label className="row" style={{ margin: 0 }}>
           <input
@@ -712,6 +742,142 @@ function SeriesFormCreate({
         </button>
       </p>
     </form>
+  );
+}
+
+// ---------- analytics ----------
+
+interface CfDay {
+  requests: number;
+  cachedRequests: number;
+  bytes: number;
+}
+interface CfFile {
+  updatedAt: string;
+  days: Record<string, Record<string, CfDay>>;
+}
+
+function fmtBytes(n: number): string {
+  if (n >= 1e9) return `${(n / 1e9).toFixed(2)} GB`;
+  if (n >= 1e6) return `${(n / 1e6).toFixed(1)} MB`;
+  return `${Math.round(n / 1e3)} kB`;
+}
+
+export function Analytics() {
+  const cf = useLoad(
+    useCallback(async () => {
+      try {
+        return JSON.parse((await getFile("content/analytics/cloudflare.json")).text) as CfFile;
+      } catch (e) {
+        if (e instanceof GhError && e.status === 404) return null;
+        throw e;
+      }
+    }, []),
+  );
+
+  if (cf.loading) return <p className="muted">Loading analytics…</p>;
+  if (cf.error) return <div className="error">{cf.error}</div>;
+  if (!cf.data) {
+    return (
+      <div>
+        <h1>Analytics</h1>
+        <p className="notice">
+          No data collected yet. The collector runs daily at 06:20 UTC (or trigger the "Collect
+          analytics" workflow manually in GitHub Actions). Cloudflare cache metrics appear per
+          episode; OP3 download stats appear once an <code>OP3_API_TOKEN</code> secret is configured
+          and the show has real downloads.
+        </p>
+      </div>
+    );
+  }
+
+  const perEpisode = new Map<string, CfDay>();
+  const days = Object.keys(cf.data.days).sort().reverse();
+  for (const day of days) {
+    for (const [key, v] of Object.entries(cf.data.days[day] ?? {})) {
+      const agg = perEpisode.get(key) ?? { requests: 0, cachedRequests: 0, bytes: 0 };
+      agg.requests += v.requests;
+      agg.cachedRequests += v.cachedRequests;
+      agg.bytes += v.bytes;
+      perEpisode.set(key, agg);
+    }
+  }
+  const rows = [...perEpisode.entries()].sort((a, b) => b[1].requests - a[1].requests);
+
+  return (
+    <div>
+      <h1>Analytics</h1>
+      <p className="muted small">
+        Cloudflare edge metrics for episode assets (all requests, including bots and feed probes —
+        for listener downloads, OP3 is the truthful number). Last collected:{" "}
+        {new Date(cf.data.updatedAt).toLocaleString()}.
+      </p>
+
+      <h2>Per episode (all collected days)</h2>
+      <div className="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Episode</th>
+              <th>Requests</th>
+              <th>Cache hit</th>
+              <th>Bandwidth</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map(([key, v]) => (
+              <tr key={key}>
+                <td>
+                  <code className="small">{key}</code>
+                </td>
+                <td>{v.requests}</td>
+                <td>
+                  {v.requests ? `${Math.round((v.cachedRequests / v.requests) * 100)}%` : "—"}
+                </td>
+                <td>{fmtBytes(v.bytes)}</td>
+              </tr>
+            ))}
+            {rows.length === 0 && (
+              <tr>
+                <td colSpan={4} className="muted">
+                  No episode traffic in the collected window yet.
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>By day</h2>
+      <div className="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Requests</th>
+              <th>Cache hit</th>
+              <th>Bandwidth</th>
+            </tr>
+          </thead>
+          <tbody>
+            {days.map((day) => {
+              const entries = Object.values(cf.data?.days[day] ?? {});
+              const req = entries.reduce((s, v) => s + v.requests, 0);
+              const hit = entries.reduce((s, v) => s + v.cachedRequests, 0);
+              const bytes = entries.reduce((s, v) => s + v.bytes, 0);
+              return (
+                <tr key={day}>
+                  <td>{day}</td>
+                  <td>{req}</td>
+                  <td>{req ? `${Math.round((hit / req) * 100)}%` : "—"}</td>
+                  <td>{fmtBytes(bytes)}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
 
