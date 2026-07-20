@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-20",
+  "guid": "4c2a9ca2-1176-5dcf-acd9-0a0b04d821a8",
+  "externalId": "ai-news-2026-07-20",
+  "title": "AI News Daily — July 20, 2026",
+  "summary": "Hugging Face disclosed that an autonomous AI agent breached its production infrastructure — an early real-world preview of agentic AI's security risks — while Alibaba pushed the open-model race forward with a 2.4-trillion-parameter Qwen3.8 and an open-sourced chip software stack aimed at Nvidia's CUDA lock-in, and Meta and Anthropic edged toward a $10 billion compute deal.",
+  "publishDate": "2026-07-20T09:07:06-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5002450,
+    "durationSeconds": 285.178776,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-20T14:11:25.219Z",
+  "updatedAt": "2026-07-20T14:11:25.219Z"
+}
