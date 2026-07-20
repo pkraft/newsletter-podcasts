@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-07-20T00:38:45.982Z",
+  "days": {
+    "2026-07-19": {
+      "ai-news/2026-07-19": {
+        "requests": 17,
+        "cachedRequests": 6,
+        "bytes": 50649144
+      },
+      "ai-news/ai-news-2026-07-19": {
+        "requests": 2,
+        "cachedRequests": 0,
+        "bytes": 5918520
+      },
+      "ai-news/e2e-test-issue-1": {
+        "requests": 10,
+        "cachedRequests": 5,
+        "bytes": 6100464
+      }
+    }
+  }
+}
