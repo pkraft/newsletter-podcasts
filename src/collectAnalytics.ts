@@ -71,7 +71,11 @@ async function collectCloudflare(): Promise<void> {
     errors?: { message: string }[];
   };
   if (data.errors?.length) {
-    throw new Error(`Cloudflare GraphQL: ${data.errors.map((e) => e.message).join("; ")}`);
+    const messages = data.errors.map((e) => e.message).join("; ");
+    const hint = messages.includes("Zone not found")
+      ? " (check CLOUDFLARE_ZONE_ID is the Zone ID from the zone overview page — not the Account ID — and that the token has Zone→Analytics→Read on that zone)"
+      : "";
+    throw new Error(`Cloudflare GraphQL: ${messages}${hint}`);
   }
   const groups = data.data?.viewer?.zones?.[0]?.httpRequestsAdaptiveGroups ?? [];
 
