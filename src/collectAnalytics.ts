@@ -41,13 +41,14 @@ async function collectCloudflare(): Promise<void> {
   }
 
   const today = new Date();
-  const since = new Date(today.getTime() - 6 * 24 * 3600 * 1000);
+  // Free-plan zones cap adaptive queries at a 1-day range, so query each of the
+  // trailing 7 days separately; days beyond retention just log and skip.
   const query = `
-    query($zone: String!, $since: String!, $until: String!) {
+    query($zone: String!, $day: String!) {
       viewer {
         zones(filter: { zoneTag: $zone }) {
           httpRequestsAdaptiveGroups(
-            filter: { date_geq: $since, date_leq: $until, clientRequestPath_like: "%/episodes/%" }
+            filter: { date: $day, clientRequestPath_like: "%/episodes/%" }
             limit: 10000
           ) {
             count
@@ -58,26 +59,30 @@ async function collectCloudflare(): Promise<void> {
       }
     }`;
 
-  const res = await fetch("https://api.cloudflare.com/client/v4/graphql", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      query,
-      variables: { zone, since: isoDate(since), until: isoDate(today) },
-    }),
-  });
-  const data = (await res.json()) as {
-    data?: { viewer?: { zones?: { httpRequestsAdaptiveGroups?: CfGroup[] }[] } };
-    errors?: { message: string }[];
-  };
-  if (data.errors?.length) {
-    const messages = data.errors.map((e) => e.message).join("; ");
-    const hint = messages.includes("Zone not found")
-      ? " (check CLOUDFLARE_ZONE_ID is the Zone ID from the zone overview page — not the Account ID — and that the token has Zone→Analytics→Read on that zone)"
-      : "";
-    throw new Error(`Cloudflare GraphQL: ${messages}${hint}`);
+  const groups: CfGroup[] = [];
+  for (let i = 0; i <= 6; i++) {
+    const day = isoDate(new Date(today.getTime() - i * 24 * 3600 * 1000));
+    const res = await fetch("https://api.cloudflare.com/client/v4/graphql", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ query, variables: { zone, day } }),
+    });
+    const data = (await res.json()) as {
+      data?: { viewer?: { zones?: { httpRequestsAdaptiveGroups?: CfGroup[] }[] } };
+      errors?: { message: string }[];
+    };
+    if (data.errors?.length) {
+      const messages = data.errors.map((e) => e.message).join("; ");
+      if (messages.includes("Zone not found")) {
+        throw new Error(
+          `Cloudflare GraphQL: ${messages} (check CLOUDFLARE_ZONE_ID is the Zone ID from the zone overview page — not the Account ID — and that the token has Zone→Analytics→Read on that zone)`,
+        );
+      }
+      console.log(`cloudflare: ${day} skipped (${messages})`);
+      continue;
+    }
+    groups.push(...(data.data?.viewer?.zones?.[0]?.httpRequestsAdaptiveGroups ?? []));
   }
-  const groups = data.data?.viewer?.zones?.[0]?.httpRequestsAdaptiveGroups ?? [];
 
   const file = join(OUT_DIR, "cloudflare.json");
   const existing: CfFile = existsSync(file)
