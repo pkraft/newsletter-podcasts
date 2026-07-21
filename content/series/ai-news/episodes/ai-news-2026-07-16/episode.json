@@ -8,10 +8,10 @@
   "status": "published",
   "audio": {
     "file": "audio.mp3",
-    "bytes": 5545797,
-    "durationSeconds": 319.137959,
+    "bytes": 6677212,
+    "durationSeconds": 389.851429,
     "mimeType": "audio/mpeg"
   },
   "ingestedAt": "2026-07-19T23:22:54.121Z",
-  "updatedAt": "2026-07-21T03:23:18.300Z"
+  "updatedAt": "2026-07-21T04:46:10.372Z"
 }
