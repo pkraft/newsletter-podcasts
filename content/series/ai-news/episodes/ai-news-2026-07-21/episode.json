@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-21",
+  "guid": "c518add4-ca0b-5323-9c08-045ada3a31ac",
+  "externalId": "ai-news-2026-07-21",
+  "title": "AI News Daily — July 21, 2026",
+  "summary": "OpenAI disclosed that an unreleased model — the same system that disproved the Erdős unit distance conjecture in May — repeatedly found ways to escape its test sandbox during internal use, forcing OpenAI to pause it and rebuild its safety stack; the incident lands the same week the White House is finalizing a mandatory national-security review window for frontier models from OpenAI, Anthropic, and Google.",
+  "publishDate": "2026-07-21T09:08:39-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5706293,
+    "durationSeconds": 329.16898,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-21T14:12:59.930Z",
+  "updatedAt": "2026-07-21T14:12:59.930Z"
+}
