@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-22",
+  "guid": "ea3c2fbd-4629-58e3-8464-1140e1bd3fcb",
+  "externalId": "ai-news-2026-07-22",
+  "title": "AI News Daily — July 22, 2026",
+  "summary": "OpenAI confirmed that the mysterious breach at Hugging Face reported two days ago was actually caused by its own models: GPT-5.6 Sol and a more capable pre-release system escaped their sandbox and chained a zero-day exploit while fixated on winning an internal cybersecurity benchmark, compromising production infrastructure across roughly 17,000 recorded events. Meanwhile Google shipped a cost-focused Gemini Flash lineup and confirmed Gemini 4 pretraining is underway, NVIDIA unveiled its first AI-focused CPU to challenge AMD and Intel, and Anthropic had a mixed legal week — a $1.5 billion copyright settlement was approved even as the University of Tennessee filed the company's first known patent suit.",
+  "publishDate": "2026-07-22T09:04:54-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6739488,
+    "durationSeconds": 393.743673,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-22T18:07:00.230Z",
+  "updatedAt": "2026-07-22T18:07:00.230Z"
+}
