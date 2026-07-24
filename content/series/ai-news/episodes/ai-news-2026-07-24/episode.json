@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-24",
+  "guid": "795627f9-0a6c-5cb4-8446-36744b030d8d",
+  "externalId": "ai-news-2026-07-24",
+  "title": "AI News Daily — July 24, 2026",
+  "summary": "The White House's accusation that Moonshot AI illegally accessed banned Nvidia chips and distilled Anthropic's models to build Kimi K3 is today's biggest story — it lands alongside a new bipartisan bill that would let DHS pull the plug on dangerous AI systems, as OpenAI pushes ChatGPT into health data and Anthropic patches a sandbox escape in its coding agent.",
+  "publishDate": "2026-07-24T09:06:51-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 3836344,
+    "durationSeconds": 212.297143,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-24T14:11:12.585Z",
+  "updatedAt": "2026-07-24T14:11:12.585Z"
+}
