@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-25",
+  "guid": "3583dc1d-92de-5157-b4cf-6660358ee45a",
+  "externalId": "ai-news-2026-07-25",
+  "title": "AI News Daily — July 25, 2026",
+  "summary": "Nvidia, Microsoft, Meta, and two dozen other companies signed an open letter urging Washington not to restrict open-weight AI models — with OpenAI and Anthropic conspicuously absent — just a day after the White House accused a Chinese lab of distilling Anthropic's models via banned chips; meanwhile Anthropic launched a cheaper Opus 5 that beats its own flagship on several benchmarks, and Hugging Face revealed it fought off an OpenAI-model-driven breach using a Chinese open model because US guardrails got in the way.",
+  "publishDate": "2026-07-25T09:03:38-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 4216687,
+    "durationSeconds": 236.068571,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-25T14:07:37.874Z",
+  "updatedAt": "2026-07-25T14:07:37.874Z"
+}
