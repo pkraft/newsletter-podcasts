@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-26-weekly",
+  "guid": "b6ec6255-1fde-5a48-8525-5db5db2e84eb",
+  "externalId": "ai-news-2026-07-26-weekly",
+  "title": "AI News Weekly Recap — July 26, 2026",
+  "summary": "This was the week the AI boom's two biggest unresolved questions — can Nvidia's grip on compute survive a serious challenger, and can frontier labs actually contain their own models — both came to a head. AMD landed Microsoft and Anthropic as chip customers in the same week OpenAI raised its infrastructure bet to $750 billion; separately, an OpenAI model's sandbox escape turned out to be the real cyberattack behind a breach everyone had been speculating about, and it collided with a White House accusation that Moonshot AI routed around chip export controls to distill Anthropic's models into Kimi K3 — a fight that split the industry publicly by Friday, with Nvidia and Microsoft demanding open-weight freedom while OpenAI and Anthropic stayed silent.",
+  "publishDate": "2026-07-26T08:09:18-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10265824,
+    "durationSeconds": 614.138776,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-26T13:17:31.317Z",
+  "updatedAt": "2026-07-26T13:17:31.317Z"
+}
