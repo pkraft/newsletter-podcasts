@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T08:40:13.748Z",
+  "updatedAt": "2026-07-27T10:11:11.320Z",
   "days": {
     "2026-07-19": {
       "ai-news/2026-07-19": {
@@ -16,6 +16,50 @@
         "requests": 10,
         "cachedRequests": 5,
         "bytes": 6100464
+      }
+    },
+    "2026-07-20": {
+      "ai-news/ai-news-2026-07-18": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 4870000
+      },
+      "ai-news/ai-news-2026-07-19-weekly": {
+        "requests": 4,
+        "cachedRequests": 1,
+        "bytes": 15781705
+      },
+      "ai-news/ai-news-2026-07-19": {
+        "requests": 4,
+        "cachedRequests": 2,
+        "bytes": 6045407
+      },
+      "ai-news/ai-news-2026-07-16": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 6114683
+      },
+      "ai-news/ai-news-2026-07-20": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 5004627
+      }
+    },
+    "2026-07-27": {
+      "ai-news/ai-news-2026-07-26-weekly": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 10266898
+      },
+      "ai-news/ai-news-2026-07-25": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 4217767
+      },
+      "ai-news/ai-news-2026-07-26": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 3546100
       }
     },
     "2026-07-25": {
@@ -59,33 +103,6 @@
         "requests": 1,
         "cachedRequests": 0,
         "bytes": 7751
-      }
-    },
-    "2026-07-20": {
-      "ai-news/ai-news-2026-07-18": {
-        "requests": 2,
-        "cachedRequests": 1,
-        "bytes": 4870000
-      },
-      "ai-news/ai-news-2026-07-19-weekly": {
-        "requests": 4,
-        "cachedRequests": 1,
-        "bytes": 15781705
-      },
-      "ai-news/ai-news-2026-07-19": {
-        "requests": 4,
-        "cachedRequests": 2,
-        "bytes": 6045407
-      },
-      "ai-news/ai-news-2026-07-16": {
-        "requests": 2,
-        "cachedRequests": 1,
-        "bytes": 6114683
-      },
-      "ai-news/ai-news-2026-07-20": {
-        "requests": 2,
-        "cachedRequests": 1,
-        "bytes": 5004627
       }
     }
   }
