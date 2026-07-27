@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-27",
+  "guid": "d46201d8-7ab5-56d4-b608-f86eb0288d22",
+  "externalId": "ai-news-2026-07-27",
+  "title": "AI News Daily — July 27, 2026",
+  "summary": "Nvidia is reportedly weighing a $250 billion financing backstop for OpenAI's massive Ohio data center — on top of up to $350 billion in prospective chip financing — a scale of exposure that underscores how much of the AI buildout now rests on one company's balance sheet. Meanwhile, Hugging Face's CEO is publicly demanding OpenAI release full logs from the rogue internal model that breached its systems, and Moonshot shipped the actual open weights for Kimi K3, the largest open-weight model ever released.",
+  "publishDate": "2026-07-27T09:03:33-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7101441,
+    "durationSeconds": 416.365714,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-27T14:08:16.305Z",
+  "updatedAt": "2026-07-27T14:08:16.305Z"
+}
