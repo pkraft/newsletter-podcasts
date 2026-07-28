@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-28",
+  "guid": "f6216d87-8c7c-5b45-80d6-fd45d0c5d938",
+  "externalId": "ai-news-2026-07-28",
+  "title": "AI News Daily — July 28, 2026",
+  "summary": "Nvidia is putting $5 billion into Ilya Sutskever's revenue-free Safe Superintelligence, Microsoft rolled out its first purpose-built cybersecurity model alongside an agentic defense platform, and a new OpenAI study finds AI use is scrambling traditional job boundaries far more than expected.",
+  "publishDate": "2026-07-28T09:05:53-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6175243,
+    "durationSeconds": 358.478367,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-28T14:12:04.657Z",
+  "updatedAt": "2026-07-28T14:12:04.657Z"
+}
