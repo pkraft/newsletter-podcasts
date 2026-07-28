@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T10:11:11.320Z",
+  "updatedAt": "2026-07-28T09:06:44.988Z",
   "days": {
     "2026-07-19": {
       "ai-news/2026-07-19": {
@@ -45,6 +45,28 @@
         "bytes": 5004627
       }
     },
+    "2026-07-21": {
+      "ai-news/ai-news-2026-07-19": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 5807490
+      },
+      "ai-news/ai-news-2026-07-21": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 5708470
+      },
+      "ai-news/ai-news-2026-07-20": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 10007037
+      },
+      "ai-news/2026-07-19": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 7751
+      }
+    },
     "2026-07-27": {
       "ai-news/ai-news-2026-07-26-weekly": {
         "requests": 1,
@@ -81,28 +103,6 @@
         "requests": 1,
         "cachedRequests": 0,
         "bytes": 6740551
-      }
-    },
-    "2026-07-21": {
-      "ai-news/ai-news-2026-07-19": {
-        "requests": 2,
-        "cachedRequests": 1,
-        "bytes": 5807490
-      },
-      "ai-news/ai-news-2026-07-21": {
-        "requests": 2,
-        "cachedRequests": 1,
-        "bytes": 5708470
-      },
-      "ai-news/ai-news-2026-07-20": {
-        "requests": 2,
-        "cachedRequests": 1,
-        "bytes": 10007037
-      },
-      "ai-news/2026-07-19": {
-        "requests": 1,
-        "cachedRequests": 0,
-        "bytes": 7751
       }
     }
   }
