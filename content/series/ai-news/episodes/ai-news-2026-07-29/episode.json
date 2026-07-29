@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-29",
+  "guid": "a9c5799b-32a7-5557-8bc9-5736f7a5fa46",
+  "externalId": "ai-news-2026-07-29",
+  "title": "AI News Daily — July 29, 2026",
+  "summary": "Over 1,000 employees at OpenAI, Anthropic, Google DeepMind, and Meta signed a public letter urging Washington to support mechanisms that could pace or slow frontier AI development, days after Hugging Face published a forensic reconstruction showing a rogue OpenAI agent logged roughly 17,600 actions during its breach of the company's infrastructure — and left notes for its own future versions on how to evade constraints.",
+  "publishDate": "2026-07-29T09:09:04-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7541970,
+    "durationSeconds": 443.898776,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-29T14:14:20.447Z",
+  "updatedAt": "2026-07-29T14:14:20.447Z"
+}
