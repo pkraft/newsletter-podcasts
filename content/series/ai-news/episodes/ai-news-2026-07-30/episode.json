@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-30",
+  "guid": "86a9c0c6-0244-530c-96c1-22217a45fe45",
+  "externalId": "ai-news-2026-07-30",
+  "title": "AI News Daily — July 30, 2026",
+  "summary": "The day's throughline was less about a single new model than about who pays for AI and who builds it: an influential argument that AI compute could get an order of magnitude more expensive collided with news that Google DeepMind dismantled its Nobel Prize-winning AlphaFold team, Thinking Machines' co-founder left over unsustainable workload to join OpenAI, and Moonshot AI is chasing a $50 billion valuation on its way to a Hong Kong IPO.",
+  "publishDate": "2026-07-30T09:07:55-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5526153,
+    "durationSeconds": 317.910204,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-30T14:13:01.230Z",
+  "updatedAt": "2026-07-30T14:13:01.230Z"
+}
