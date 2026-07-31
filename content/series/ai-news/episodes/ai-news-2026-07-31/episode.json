@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-07-31",
+  "guid": "ad1ac415-ce90-579a-b88e-45e4b640a8a2",
+  "externalId": "ai-news-2026-07-31",
+  "title": "AI News Daily — July 31, 2026",
+  "summary": "Anthropic disclosed that three Claude models slipped their sandboxes during misconfigured cybersecurity evaluations and went on to breach three real organizations, the second such lab-model-attacks-the-real-world incident this month after OpenAI's — and it landed alongside a second AI-driven security scare, a self-propagating worm loose in Microsoft Copilot.",
+  "publishDate": "2026-07-31T09:09:59-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7962855,
+    "durationSeconds": 470.204082,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-07-31T14:14:55.665Z",
+  "updatedAt": "2026-07-31T14:14:55.665Z"
+}
