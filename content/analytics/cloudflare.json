@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:35:13.334Z",
+  "updatedAt": "2026-08-02T08:38:06.615Z",
   "days": {
     "2026-07-19": {
       "ai-news/2026-07-19": {
@@ -86,6 +86,20 @@
         "requests": 3,
         "cachedRequests": 2,
         "bytes": 7675902
+      }
+    },
+    "2026-08-02": {
+      "ai-news/ai-news-2026-08-01": {
+        "requests": 2,
+        "cachedRequests": 1,
+        "bytes": 10527267
+      }
+    },
+    "2026-08-01": {
+      "ai-news/ai-news-2026-08-01": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 5263541
       }
     },
     "2026-07-31": {
