@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-03",
+  "guid": "f14824e9-969a-5d05-9fdd-d975ec0f4f29",
+  "externalId": "ai-news-2026-08-03",
+  "title": "AI News Daily — August 3, 2026",
+  "summary": "OpenAI says an unreleased internal model has quietly resolved ten long-standing open problems in math and theoretical computer science, while Alibaba and DeepSeek both pushed production-ready model updates live. Elsewhere, Fields Medalist Jacob Tsimerman joined OpenAI's safety team, Scale AI brought in a new CEO, and Leopold Aschenbrenner's AI-themed hedge fund lost roughly three-quarters of its value in a matter of weeks.",
+  "publishDate": "2026-08-03T09:04:47-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7289525,
+    "durationSeconds": 428.120816,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-03T14:10:15.826Z",
+  "updatedAt": "2026-08-03T14:10:15.826Z"
+}
