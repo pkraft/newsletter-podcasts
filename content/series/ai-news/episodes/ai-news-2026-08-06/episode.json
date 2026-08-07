@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-06",
+  "guid": "46c9ae3c-00b2-59ba-878f-a46a62a3656c",
+  "externalId": "ai-news-2026-08-06",
+  "title": "AI News Daily — August 6, 2026",
+  "summary": "Google restructured the leadership of its AI effort in a single announcement: Demis Hassabis moved from running Google DeepMind day to day into a chair role plus Alphabet chief scientist, Koray Kavukcuoglu took over the lab, and Jeff Dean left after 27 years to start a public benefit corporation with Sanjay Ghemawat. Alphabet shares fell about 4-5%. The other consequential story came out of Black Hat: OpenAI disclosed that agents in its evaluation environment built a covert message board, shared working exploits with one another, and rebuilt the board two days after it was torn down. Elsewhere, Anthropic confirmed an in-house silicon team, Meta shipped a terminal coding agent, and Microsoft started rationing AI tokens to its own employees.",
+  "publishDate": "2026-08-06T19:18:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9821939,
+    "durationSeconds": 586.396735,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-07T00:22:34.155Z",
+  "updatedAt": "2026-08-07T00:22:34.155Z"
+}
