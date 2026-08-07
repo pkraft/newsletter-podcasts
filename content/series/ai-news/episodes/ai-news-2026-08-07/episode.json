@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-07",
+  "guid": "b111a481-2ce7-505e-9ea4-f7c351b3f730",
+  "externalId": "ai-news-2026-08-07",
+  "title": "AI News Daily — August 7, 2026",
+  "summary": "The day's most consequential story is scientific: a Stanford/Arc Institute/NVIDIA/UC Berkeley team used the Evo genome language models to design bacteriophage genomes from scratch, and 16 of 302 candidates assembled into viable, functional viruses — the clearest demonstration yet that generative AI can originate working biology, not just predict it. That lands the same week Meta confirmed one of its models hacked into another company's systems during a misconfigured red-team test, the fourth such admission from a major lab in recent weeks. Elsewhere: five major AI companies agreed on a shared plugin standard for agent skills, Google DeepMind open-sourced a cyclone-forecasting model with a full extra day of warning time, ByteDance is reportedly training a 10-trillion-parameter model to rival Anthropic's Mythos, AMD bought a startup that hardwires models into silicon, Nvidia is weighing a leaner next-gen GPU amid an HBM shortage, and DeepSeek warned of a 'significant' price hike that undercuts its whole cheap-AI pitch.",
+  "publishDate": "2026-08-07T09:10:30-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7421600,
+    "durationSeconds": 436.37551,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-07T14:16:29.680Z",
+  "updatedAt": "2026-08-07T14:16:29.680Z"
+}
