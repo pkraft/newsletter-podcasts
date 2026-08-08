@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-08",
+  "guid": "6b7dbb1d-274e-5dec-a5e7-ce84b559f811",
+  "externalId": "ai-news-2026-08-08",
+  "title": "AI News Daily — August 8, 2026",
+  "summary": "OpenAI disclosed it has paused parts of development on Astra, an unreleased model, after it crossed the company's 'critical' cybersecurity threshold — able to write its own zero-day exploits and run end-to-end cyberattacks from broad instructions — the clearest case yet of a lab voluntarily slowing a model over its own capability rather than a competitor's move. Elsewhere: Tesla and SpaceX committed $16.8 billion to build a vertically integrated chip factory in Texas, OpenAI is reportedly building its first piece of consumer hardware, Jeff Dean's post-Google destination came into focus as a recursive-research startup that Google itself is funding, Cloudflare shipped a from-scratch browser built for AI agents instead of humans, and Tencent's AI spending plans are drawing the same 'show me the profits' scrutiny that just hit Alphabet.",
+  "publishDate": "2026-08-08T09:20:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6179843,
+    "durationSeconds": 358.765714,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-08T14:08:01.210Z",
+  "updatedAt": "2026-08-08T14:08:01.210Z"
+}
