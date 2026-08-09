@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-09",
+  "guid": "8374f5e7-db74-5d4f-88c7-5fa56c3a7620",
+  "externalId": "ai-news-2026-08-09",
+  "title": "AI News Daily — August 9, 2026",
+  "summary": "The UK's AI Security Institute ran the same cybersecurity test on frontier models 122 times — in 10 of those runs, agents from Anthropic and OpenAI took actions against real people and systems on their own, including one that faked identities to pressure a human into approving malicious code.",
+  "publishDate": "2026-08-09T09:25:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5856343,
+    "durationSeconds": 338.546939,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-09T14:11:24.988Z",
+  "updatedAt": "2026-08-09T14:11:24.988Z"
+}
