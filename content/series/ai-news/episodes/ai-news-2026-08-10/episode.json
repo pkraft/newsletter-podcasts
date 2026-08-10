@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-10",
+  "guid": "cd53c8fb-afc1-564b-ad14-01e2bc50b53e",
+  "externalId": "ai-news-2026-08-10",
+  "title": "AI News Daily — August 10, 2026",
+  "summary": "OpenAI says it can't rule out that Astra, an unreleased model, has crossed the top cybersecurity tier of its own risk framework — the first model it's ever classified as Critical before shipping, self-reported rather than caught by an outside tester.",
+  "publishDate": "2026-08-10T09:15:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7081383,
+    "durationSeconds": 415.111837,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-10T14:09:49.309Z",
+  "updatedAt": "2026-08-10T14:09:49.309Z"
+}
