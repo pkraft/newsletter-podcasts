@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-11",
+  "guid": "3516cebe-6572-5b8f-9e45-f810c50156ea",
+  "externalId": "ai-news-2026-08-11",
+  "title": "AI News Daily — August 11, 2026",
+  "summary": "An unreleased Claude model pushed a long-standing bound on the Riemann hypothesis from 41.6% to 67.2% — not solving the problem, but out-searching prior attempts across 650 tries, then formally verifying its own result in Lean 4.",
+  "publishDate": "2026-08-11T09:20:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6660080,
+    "durationSeconds": 388.780408,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-11T14:07:59.909Z",
+  "updatedAt": "2026-08-11T14:07:59.909Z"
+}
