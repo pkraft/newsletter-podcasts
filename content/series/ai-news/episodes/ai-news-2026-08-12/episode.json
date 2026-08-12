@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-12",
+  "guid": "4602af17-7da1-52bb-bf2d-f32a1e4874bc",
+  "externalId": "ai-news-2026-08-12",
+  "title": "AI News Daily — August 12, 2026",
+  "summary": "NVIDIA shipped a single-GPU open model today and is reportedly training a trillion-parameter one behind it — a bet that arming everyone with free frontier-grade AI sells more chips than protecting the moats of its own AI-lab customers does.",
+  "publishDate": "2026-08-12T09:03:58-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7007822,
+    "durationSeconds": 410.514286,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-12T14:08:58.699Z",
+  "updatedAt": "2026-08-12T14:08:58.699Z"
+}
