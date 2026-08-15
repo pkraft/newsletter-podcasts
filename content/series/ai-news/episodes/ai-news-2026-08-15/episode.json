@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-15",
+  "guid": "db5d10ac-7ee2-5496-ab06-0420d0cf1b2a",
+  "externalId": "ai-news-2026-08-15",
+  "title": "AI News Daily — August 15, 2026",
+  "summary": "OpenAI's new cyber model completes 95% of the zero-day and exploit-development tasks its safeguarded version refuses — and ships behind hardware security keys and identity checks rather than an ordinary API key, treating high-end offensive capability as something to gate, not release.",
+  "publishDate": "2026-08-15T09:03:36-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6471580,
+    "durationSeconds": 376.999184,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-15T14:09:55.116Z",
+  "updatedAt": "2026-08-15T14:09:55.116Z"
+}
