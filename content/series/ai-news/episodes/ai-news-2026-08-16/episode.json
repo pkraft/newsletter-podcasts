@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-16",
+  "guid": "3de575d9-68a5-5610-a723-db80ebc686f2",
+  "externalId": "ai-news-2026-08-16",
+  "title": "AI News Daily — August 16, 2026",
+  "summary": "SpaceX closed its $60 billion all-stock purchase of Cursor — the largest startup acquisition on record — folding the coding tool into Musk's GPU empire. Meanwhile, a fourth plaintiff joined a lawsuit accusing xAI's Grok of generating child sexual abuse material from a real photo. And Google halved Gemini 3.7 Flash's price while sharply lifting its coding and agent benchmarks.",
+  "publishDate": "2026-08-16T09:04:03-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7999639,
+    "durationSeconds": 472.502857,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-17T16:33:18.135Z",
+  "updatedAt": "2026-08-17T16:33:18.135Z"
+}
