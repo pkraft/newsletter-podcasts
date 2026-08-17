@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-17",
+  "guid": "d7f6dffc-c2c6-5ba5-9030-6c4dc43a04b1",
+  "externalId": "ai-news-2026-08-17",
+  "title": "AI News Daily — August 17, 2026",
+  "summary": "Anthropic raised its own risk estimate for catastrophic misalignment from \"very low\" to \"low\" and disclosed an unreleased model, Model 2, more capable than its current flagship but not being released. Meanwhile, DeepSeek's newly open-sourced agent harness raced past 135,000 GitHub stars in four days, a pace commentators called the platform's fastest ever. And Anthropic's quarterly revenue nearly tripled to $11.5 billion, with investors now pricing its IPO at up to $2 trillion.",
+  "publishDate": "2026-08-17T09:05:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7672377,
+    "durationSeconds": 452.04898,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-17T16:41:59.033Z",
+  "updatedAt": "2026-08-17T16:41:59.033Z"
+}
