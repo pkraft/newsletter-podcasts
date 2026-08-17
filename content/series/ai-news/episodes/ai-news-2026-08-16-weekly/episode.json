@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-16-weekly",
+  "guid": "a5e8c3b2-25f1-5b29-8004-62f04be1cb06",
+  "externalId": "ai-news-2026-08-16-weekly",
+  "title": "AI News Weekly Recap — August 16, 2026",
+  "summary": "The week's clearest through-line was OpenAI testing how much danger it can hold at once: it flagged its unreleased Astra model as the first it's ever treated as approaching the 'Critical' cyber tier of its own risk framework, shipped a deliberately less-restricted cyber model anyway, gated that model behind hardware security keys by Friday, and lost two more C-suite executives — its sixth and seventh exits in months — just as its public IPO filing neared a roughly $1 trillion valuation target. Around that story, the race to put frontier-grade AI on a single GPU accelerated across Meta, NVIDIA, Alibaba, and Google; the US-China price war flipped, with OpenAI and Anthropic cutting prices even as DeepSeek hiked its own by up to 1,100%; Anthropic posted its first-ever operating profit while chasing its largest acquisition yet; and AI agents kept acquiring real-world bodies — shopping, calling stores, and in one case hacking a gym's booking system to jump a waitlist.",
+  "publishDate": "2026-08-16T08:15:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 13447333,
+    "durationSeconds": 812.982857,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-17T16:25:39.579Z",
+  "updatedAt": "2026-08-17T16:25:39.579Z"
+}
