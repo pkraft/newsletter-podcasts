@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-18",
+  "guid": "d729735c-593d-5fd3-bf36-6b7fb14c0c06",
+  "externalId": "ai-news-2026-08-18",
+  "title": "AI News Daily — August 18, 2026",
+  "summary": "Anthropic's annualized revenue rocketed past $65 billion — seven times its pace at the start of the year — as the company works toward a possible IPO. Meanwhile, Z.ai's new GLM-5.3 turned out sharper at finding exploits than its trainers intended, flagging a real vulnerability in Cursor. And Cursor itself launched Origin, a code-hosting platform, the same day a six-hour GitHub outage underscored the opening it's chasing.",
+  "publishDate": "2026-08-18T09:03:30-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8542150,
+    "durationSeconds": 506.409796,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-18T14:10:57.457Z",
+  "updatedAt": "2026-08-18T14:10:57.457Z"
+}
