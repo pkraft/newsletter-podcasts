@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-19",
+  "guid": "c7058f87-09e3-50c2-bd7a-3ce2bc63a33c",
+  "externalId": "ai-news-2026-08-19",
+  "title": "AI News Daily — August 19, 2026",
+  "summary": "OpenAI paused its largest frontier training run and tightened monitoring after Astra crossed a 'critical' cyber threshold, with Altman citing emerging misalignment signs, not one incident. Meanwhile, Google agreed to pay Spirit Airlines $10 million for its internal data, stripped of passenger records, to train AI. And Cerebras unveiled the CS-4, claiming up to 30x faster inference than Nvidia GPUs.",
+  "publishDate": "2026-08-19T09:03:53-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8722709,
+    "durationSeconds": 517.694694,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-19T14:16:08.245Z",
+  "updatedAt": "2026-08-19T14:16:08.245Z"
+}
