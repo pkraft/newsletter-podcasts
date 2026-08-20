@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-20",
+  "guid": "bd9bf7bf-a9ee-59f8-a0bb-2eaa4bfeec9b",
+  "externalId": "ai-news-2026-08-20",
+  "title": "AI News Daily — August 20, 2026",
+  "summary": "Anthropic's Q2 revenue topped OpenAI's for the first time, $11.6 billion to $6.7 billion, as OpenAI's operating losses widened to $12.3 billion. OpenAI countered by previewing Private Safety Processing, which it says lets it flag misuse without the 30-day data retention Anthropic now requires. And Unitree's Shanghai IPO surged as much as 630%, valuing the DeepSeek-backed humanoid robot maker near $50 billion.",
+  "publishDate": "2026-08-20T09:03:01-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7990026,
+    "durationSeconds": 471.902041,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-20T14:10:17.073Z",
+  "updatedAt": "2026-08-20T14:10:17.073Z"
+}
