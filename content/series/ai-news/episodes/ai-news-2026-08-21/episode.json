@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-21",
+  "guid": "ba01b987-6a71-5d7d-9705-820ea7bf58f6",
+  "externalId": "ai-news-2026-08-21",
+  "title": "AI News Daily — August 21, 2026",
+  "summary": "The White House briefed OpenAI, Anthropic, and Google on a frontier-model testing framework it called ‘finalized’ back on August 4 — but still hasn’t shown companies the actual document. Anthropic, meanwhile, bundled computer use, browser access, skills, and files into one production-ready Claude agent surface. And Meta turns out to be quietly one of Microsoft’s largest AI customers, paying Azure hundreds of millions a year to run rival models.",
+  "publishDate": "2026-08-21T09:04:43-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7046692,
+    "durationSeconds": 412.943673,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-21T14:12:12.385Z",
+  "updatedAt": "2026-08-21T14:12:12.385Z"
+}
