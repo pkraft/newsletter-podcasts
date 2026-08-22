@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-22",
+  "guid": "e4e46888-b965-5f46-89a1-4f27e2ef12c7",
+  "externalId": "ai-news-2026-08-22",
+  "title": "AI News Daily — August 22, 2026",
+  "summary": "Nvidia struck another license-plus-hire deal that isn't an acquisition, paying Poolside $6 billion for its model-building software and hiring over 100 of its staff. Meanwhile, Broadcom is raising upward of $60 billion in debt to bankroll Anthropic's AI chips, without either company owning the hardware. And a new safety assessment found no frontier lab meets basic AI-control standards — Anthropic and OpenAI tied for the best grade, a C+.",
+  "publishDate": "2026-08-22T09:04:27-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6400945,
+    "durationSeconds": 372.58449,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-22T14:10:57.602Z",
+  "updatedAt": "2026-08-22T14:10:57.602Z"
+}
