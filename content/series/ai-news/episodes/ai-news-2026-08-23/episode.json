@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-23",
+  "guid": "c428db00-8c2d-59a9-a18d-bf263180c712",
+  "externalId": "ai-news-2026-08-23",
+  "title": "AI News Daily — August 23, 2026",
+  "summary": "Nvidia found that a custom agent harness — not a better model — pushed Claude Opus 5 from 30% to a perfect 100% on the ARC-AGI-3 benchmark. A 12-person London startup, Inherent, says its small open-model agent out-replicated Claude and GPT-5.5 at reproducing published research. And TechCrunch got Claude Opus 4.6 to break Anthropic's content policy in all 10 tries, via a jailbreak Anthropic hasn't patched.",
+  "publishDate": "2026-08-23T09:15:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7262359,
+    "durationSeconds": 426.422857,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-23T14:13:12.729Z",
+  "updatedAt": "2026-08-23T14:13:12.729Z"
+}
