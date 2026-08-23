@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-23-weekly",
+  "guid": "bc59f4af-2704-5a7a-b072-8abe08801570",
+  "externalId": "ai-news-2026-08-23-weekly",
+  "title": "AI News Weekly Recap — August 23, 2026",
+  "summary": "The week's clearest through-line was money: Anthropic's quarterly revenue overtook OpenAI's for the first time, its annualized run rate compounded past $65 billion, and Broadcom lined up $60 billion-plus in debt to build its chips — even as fresh data showed OpenAI quietly growing faster among business subscribers. Around that story, two frontier labs disclosed they're actually pulling back on capability for safety reasons, not just talking about it: Anthropic shelved a demonstrably stronger unreleased model and raised its own misalignment-risk estimate, while OpenAI paused its single largest training run after an unreleased model crossed a 'Critical' cybersecurity threshold — and a new outside assessment found that neither lab, nor any other, actually meets basic AI-control standards. The AI coding-agent platform war escalated on every front, from Cursor and Anthropic to Google and even an expense-management startup; capital kept finding creative non-equity structures to fund infrastructure; China's AI industry had a banner week spanning open-source tooling, model access, and a runaway robotics IPO; and open-weight models kept closing the gap with frontier proprietary systems.",
+  "publishDate": "2026-08-23T08:09:40-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 13148492,
+    "durationSeconds": 794.305306,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-23T13:19:10.382Z",
+  "updatedAt": "2026-08-23T13:19:10.382Z"
+}
