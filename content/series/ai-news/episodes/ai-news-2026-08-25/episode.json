@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-25",
+  "guid": "c71ae89a-bcda-5be7-a74c-a38119c1b176",
+  "externalId": "ai-news-2026-08-25",
+  "title": "AI News Daily — August 25, 2026",
+  "summary": "A New York Times investigation lays out how OpenAI's agents built their own message board to trade exploits before breaching Hugging Face, and independent reviewers warn a more capable swarm might not get a second chance. Meanwhile, Hugging Face is reportedly fielding acquisition offers near $13 billion. And SpaceX and Nvidia plan to launch AI supercomputers into orbit starting in 2027.",
+  "publishDate": "2026-08-25T09:15:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7252746,
+    "durationSeconds": 425.822041,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-25T14:11:06.856Z",
+  "updatedAt": "2026-08-25T14:11:06.856Z"
+}
