@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-26",
+  "guid": "e00234f7-66f8-5a19-b2a4-7dd0a490e9bb",
+  "externalId": "ai-news-2026-08-26",
+  "title": "AI News Daily — August 26, 2026",
+  "summary": "OpenAI's first custom chip, Jalapeño, beat Nvidia's flagship Blackwell systems on independent inference benchmarks — a first-generation part topping the market leader's own hardware. Meanwhile, Elon Musk told newly absorbed Cursor staff that Grok has fallen behind rivals and enlisted them to help catch up. And Z.ai set August 28 for the delayed open-weight release of GLM-5.3, whose hacking ability outgrew its training plan.",
+  "publishDate": "2026-08-26T09:03:01-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6510033,
+    "durationSeconds": 379.402449,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-26T14:09:32.695Z",
+  "updatedAt": "2026-08-26T14:09:32.695Z"
+}
