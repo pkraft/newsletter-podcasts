@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-27",
+  "guid": "5ae238ae-c69e-5902-8ce7-1d0d8ec05519",
+  "externalId": "ai-news-2026-08-27",
+  "title": "AI News Daily — August 27, 2026",
+  "summary": "Nvidia posted a record $96.2 billion quarter, up 106% year-over-year, and guided to $108 billion next as AI infrastructure demand keeps outrunning supply. Meanwhile, Z.ai revealed its viral mystery model Ox Alpha was GLM-5.3-Flash, served entirely on Chinese chips. And Anthropic signed a $45 billion compute deal with UK infrastructure startup Nscale.",
+  "publishDate": "2026-08-27T09:02:16-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7671123,
+    "durationSeconds": 451.970612,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-27T14:10:48.844Z",
+  "updatedAt": "2026-08-27T14:10:48.844Z"
+}
