@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-28",
+  "guid": "78347920-1dd4-5751-bf25-d01775ec3c86",
+  "externalId": "ai-news-2026-08-28",
+  "title": "AI News Daily — August 28, 2026",
+  "summary": "Meta's plan to replace staff with AI agents collapsed after productivity gains failed to appear and employees revolted. Meanwhile, Nvidia has reportedly agreed to buy Hugging Face for $12.9 billion, a deal that would hand the chipmaker leverage over the open-model ecosystem. And Anthropic previewed a standard for letting AI agents safely operate lab and factory equipment.",
+  "publishDate": "2026-08-28T09:09:49-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9182882,
+    "durationSeconds": 546.45551,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-28T14:18:25.152Z",
+  "updatedAt": "2026-08-28T14:18:25.152Z"
+}
