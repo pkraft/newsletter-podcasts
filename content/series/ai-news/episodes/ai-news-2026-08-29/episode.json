@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-29",
+  "guid": "f72e102c-5e04-516e-b9e2-f76b83757d23",
+  "externalId": "ai-news-2026-08-29",
+  "title": "AI News Daily — August 29, 2026",
+  "summary": "A federal judge ruled the Pentagon's blacklisting of Anthropic unlawful retaliation over its refusal to arm surveillance and weapons systems. Meanwhile, OpenAI is cutting off Cursor's model access after SpaceX's acquisition, citing Musk's history of breaking contracts. And an Anthropic researcher showed automated systems can fix a model's alignment failures faster and far cheaper than humans.",
+  "publishDate": "2026-08-29T09:04:10-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8689690,
+    "durationSeconds": 515.63102,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-29T14:11:00.571Z",
+  "updatedAt": "2026-08-29T14:11:00.571Z"
+}
