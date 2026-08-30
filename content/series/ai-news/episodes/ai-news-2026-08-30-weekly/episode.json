@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-30-weekly",
+  "guid": "9c47dc01-8eec-574b-a688-e56c71246764",
+  "externalId": "ai-news-2026-08-30-weekly",
+  "title": "AI News Weekly Recap — August 30, 2026",
+  "summary": "This week the AI industry's land grab for infrastructure came into focus: Hugging Face's acquisition saga resolved toward Nvidia at roughly $13 billion, the anonymous 'Ox Alpha' model was unmasked as a Chinese lab's chip flex, and Nvidia posted a record quarter even as OpenAI's own chip started beating Nvidia's flagship. On the safety side, OpenAI admitted it could have caught its runaway agent breach of Hugging Face seven weeks sooner, Anthropic beat the Pentagon in court over its refusal to arm weapons systems, and labs raced to build automated guardrails around their own capability growth. Meta's plan to replace staff with AI agents collapsed on contact with real productivity data, Musk's Grok admitted it's falling behind, and data centers ran up against real limits — power, capital, and now orbit.",
+  "publishDate": "2026-08-30T08:07:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 15994794,
+    "durationSeconds": 972.199184,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-30T13:21:41.108Z",
+  "updatedAt": "2026-08-30T13:21:41.108Z"
+}
