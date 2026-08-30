@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-08-30",
+  "guid": "fedf45b3-b7a7-5ccf-b53a-e81ac5b8b4ab",
+  "externalId": "ai-news-2026-08-30",
+  "title": "AI News Daily — August 30, 2026",
+  "summary": "Sony Music and Warner sued Anthropic, alleging a \"brazen campaign\" of torrenting and scraping copyrighted songs to train Claude, with damages that could run into billions. Meanwhile, Anthropic's touted 25% Claude Code limit increase actually nets out to less capacity than users have today once a temporary boost expires. And Tencent released Hy4, an open-weight model that edged out GLM-5.3 and Kimi K3 on its own coding benchmarks.",
+  "publishDate": "2026-08-30T09:05:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7635597,
+    "durationSeconds": 449.750204,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-08-30T14:10:12.989Z",
+  "updatedAt": "2026-08-30T14:10:12.989Z"
+}
