@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-01",
+  "guid": "6281bcfb-d045-595a-800e-a532c441e82f",
+  "externalId": "ai-news-2026-09-01",
+  "title": "AI News Daily — September 1, 2026",
+  "summary": "OpenAI's next flagship model, code-named Astra, produced its first internal outputs — including a working game built from a single prompt — though the company still hasn't set a release date. Runway unveiled Solaris, a real-time interface generator that renders working apps frame by frame with no code underneath. And OpenAI confirmed it's cutting Cursor off from its coding models on November 12, following Cursor's acquisition by SpaceX.",
+  "publishDate": "2026-09-01T09:03:09-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9241400,
+    "durationSeconds": 550.112653,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-01T14:12:05.506Z",
+  "updatedAt": "2026-09-01T14:12:05.506Z"
+}
