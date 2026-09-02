@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-02",
+  "guid": "fbabfa0b-1740-51ee-880c-84561d26787e",
+  "externalId": "ai-news-2026-09-02",
+  "title": "AI News Daily — September 2, 2026",
+  "summary": "Anthropic shipped Claude Fable 5.1 and a tightly restricted Mythos 5.1, cutting typical costs 25% while lifting coding and research scores. World Labs unveiled Atlas, a world-generation model trained natively on text, video, and 3D to simulate what comes next. And Cognition is closing in on a $1 billion raise at a $47 billion valuation, nearly double its price from three months ago.",
+  "publishDate": "2026-09-02T09:04:23-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7274902,
+    "durationSeconds": 427.206531,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-02T14:10:28.393Z",
+  "updatedAt": "2026-09-02T14:10:28.393Z"
+}
