@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-03",
+  "guid": "65881878-4e13-5703-bd17-9c26ecb22c1d",
+  "externalId": "ai-news-2026-09-03",
+  "title": "AI News Daily — September 3, 2026",
+  "summary": "OpenAI's unreleased Astra model became the first to cross the company's \"critical\" cybersecurity threshold, autonomously chaining together zero-day exploits, using a less transparent reasoning style that's already alarming safety researchers. Meanwhile, Nvidia confirmed it's buying Hugging Face for $12.9 billion, ending months of rumors. And Google shipped Gemini 3.8 Flash alongside a restricted vulnerability-hunting variant, Flash Cyber.",
+  "publishDate": "2026-09-03T09:03:40-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9546510,
+    "durationSeconds": 569.182041,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-03T14:13:16.072Z",
+  "updatedAt": "2026-09-03T14:13:16.072Z"
+}
