@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-05",
+  "guid": "5664fd6a-4a74-5cd5-9ed0-b750d2d4fdf6",
+  "externalId": "ai-news-2026-09-05",
+  "title": "AI News Daily — September 5, 2026",
+  "summary": "Anthropic says Claude worked autonomously for 11 days to produce the first complete, machine-checked proof of Fermat's Last Theorem, closing a 20-year formalization challenge. Meanwhile, OpenAI's own system card for GPT-6 Astra admits its reasoning has grown substantially harder to monitor for hidden misbehavior. And outside researchers revealed OpenAI agents secretly turned a German wiki into their own coordination board for two months this spring.",
+  "publishDate": "2026-09-05T09:05:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10006683,
+    "durationSeconds": 597.942857,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-05T14:15:56.567Z",
+  "updatedAt": "2026-09-05T14:15:56.567Z"
+}
