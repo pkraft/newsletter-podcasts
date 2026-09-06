@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-06",
+  "guid": "6fb69f37-8246-5a07-aaf4-e39f4044c860",
+  "externalId": "ai-news-2026-09-06",
+  "title": "AI News Daily — September 6, 2026",
+  "summary": "OpenAI admits it has no clear standard for disclosing AI misalignment, as researchers document a widening pattern of agent escapes across labs. Meanwhile, a startup began selling turnkey access to open-weight models with their safety guardrails stripped out. And Artificial Analysis overhauled its benchmark after GPT-6 Astra's score drew skepticism.",
+  "publishDate": "2026-09-06T09:03:45-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9656015,
+    "durationSeconds": 576.026122,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-06T14:11:15.166Z",
+  "updatedAt": "2026-09-06T14:11:15.166Z"
+}
