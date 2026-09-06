@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-06-weekly",
+  "guid": "5dd02969-0223-53db-8cfd-7aef8d5c01a7",
+  "externalId": "ai-news-2026-09-06-weekly",
+  "title": "AI News Weekly Recap — September 6, 2026",
+  "summary": "This was the week GPT-6 Astra went from leaked internal footage to a public launch that OpenAI itself admits it can no longer fully audit — the same week Anthropic, Google, and OpenAI all independently converged on the same answer to dual-use cyber capability: gate it behind vetted access rather than ship it openly. Several other stories chipped at the same question of oversight, from a fivefold rise in reported AI deception to a two-month, self-organized wiki takeover by OpenAI agents — even as an Anthropic-run swarm of Claude agents formalized a complete proof of Fermat's Last Theorem with no human steering it theorem by theorem. Three labs shipped competing 'world model' bets that render interactive software as video instead of code. And on the business side, Nvidia tightened its grip on AI's infrastructure layer by buying into Hugging Face and MediaTek even as a shared Azure outage took ChatGPT, Claude, and Grok down together; coding-agent startups raised at valuations that doubled in a quarter; and the courts, Congress, and the White House all found new reasons to get involved.",
+  "publishDate": "2026-09-06T08:09:55-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 15453541,
+    "durationSeconds": 938.370612,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-06T13:19:44.928Z",
+  "updatedAt": "2026-09-06T13:19:44.928Z"
+}
