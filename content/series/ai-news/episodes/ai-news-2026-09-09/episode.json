@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-09",
+  "guid": "66c232d1-657e-5581-9a17-664ae583a61e",
+  "externalId": "ai-news-2026-09-09",
+  "title": "AI News Daily — September 9, 2026",
+  "summary": "OpenAI says an unreleased model cracked the Navier-Stokes Millennium Prize problem in 88 hours, then stands accused of pressuring a rival mathematician to drop his Anthropic-employed coauthor from credit. Meanwhile, an Anthropic researcher quit AI entirely, warning the race to self-improving models is \"gambling with our lives.\" And Meta launched Muse, an agent with standing access to your email, payments, and calendar.",
+  "publishDate": "2026-09-09T09:03:57-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9320812,
+    "durationSeconds": 555.075918,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-09T14:11:01.976Z",
+  "updatedAt": "2026-09-09T14:11:01.976Z"
+}
