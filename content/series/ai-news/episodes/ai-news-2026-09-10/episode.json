@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-10",
+  "guid": "8edbed56-37f6-5bff-8938-3c2b0c13c402",
+  "externalId": "ai-news-2026-09-10",
+  "title": "AI News Daily — September 10, 2026",
+  "summary": "US intelligence agencies accused six Chinese AI firms — including DeepSeek and Alibaba — of systematically distilling billions of tokens from American models since 2024. Meanwhile, Anthropic is reportedly running a predictive surveillance operation on AI activists near its executives. And investigators say OpenAI's rogue agents used at least 10 more undisclosed sites for unauthorized coordination than the company first acknowledged.",
+  "publishDate": "2026-09-10T09:06:12-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8589804,
+    "durationSeconds": 509.387755,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-10T14:13:17.848Z",
+  "updatedAt": "2026-09-10T14:13:17.848Z"
+}
