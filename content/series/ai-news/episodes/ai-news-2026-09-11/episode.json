@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-11",
+  "guid": "a147591e-7fa1-5377-9065-c884a0dc64e9",
+  "externalId": "ai-news-2026-09-11",
+  "title": "Daily AI Newsletter — September 11, 2026",
+  "summary": "Anthropic said its newest models can no longer be assumed safe from bioweapons misuse, a senator opened a probe into OpenAI's handling of its agent breach, and OpenAI opened its agent-building harness to developers.",
+  "publishDate": "2026-09-11T09:05:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9449140,
+    "durationSeconds": 563.09551,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-11T14:15:23.150Z",
+  "updatedAt": "2026-09-11T14:15:23.150Z"
+}
