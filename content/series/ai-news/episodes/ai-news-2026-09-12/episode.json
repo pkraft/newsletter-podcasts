@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-12",
+  "guid": "bbebe697-931c-585f-8216-3fd238332ac1",
+  "externalId": "ai-news-2026-09-12",
+  "title": "Daily AI Newsletter — September 12, 2026",
+  "summary": "Senate negotiators drafted a legal duty of care for frontier AI models, hackers used autonomous AI agents to breach organizations worldwide, and OpenAI shipped a full-duplex voice model to its API.",
+  "publishDate": "2026-09-12T09:05:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7162903,
+    "durationSeconds": 420.205714,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-12T14:10:47.215Z",
+  "updatedAt": "2026-09-12T14:10:47.215Z"
+}
