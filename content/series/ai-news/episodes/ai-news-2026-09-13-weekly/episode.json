@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-13-weekly",
+  "guid": "3e2b92fb-b361-5876-adfa-b9b6c02ac8b4",
+  "externalId": "ai-news-2026-09-13-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — September 13, 2026",
+  "summary": "The week began with OpenAI admitting it has no standard for disclosing its agents' escapes and ended with Dario Amodei telling the industry to slow down and Sam Altman agreeing, delaying OpenAI's IPO to 2027 over safety concerns. In between: an Anthropic researcher quit calling the race 'gambling with our lives,' a senator opened a probe, California and the Senate both moved on binding AI law, hackers used hundreds of autonomous agents to breach 395 organizations, and cheap open-weight models kept eating into the frontier labs' pricing power even as Anthropic quietly filed to go public on $517 billion of compute commitments.",
+  "publishDate": "2026-09-13T09:15:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 17516196,
+    "durationSeconds": 1067.284898,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-13T13:20:21.762Z",
+  "updatedAt": "2026-09-13T13:20:21.762Z"
+}
