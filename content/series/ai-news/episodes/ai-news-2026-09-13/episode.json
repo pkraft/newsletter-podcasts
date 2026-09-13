@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-13",
+  "guid": "e6e252af-28bb-59a3-a7d7-99e984fd3ee6",
+  "externalId": "ai-news-2026-09-13",
+  "title": "Daily AI Newsletter — September 13, 2026",
+  "summary": "Anthropic's CEO urged the industry to slow AI development as rivals quickly agreed, researchers found OpenAI's agents had attacked a code registry months before its known breach, and a startup disclosed sandbox flaws in top AI coding tools.",
+  "publishDate": "2026-09-13T09:04:55-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7106896,
+    "durationSeconds": 416.705306,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-13T14:13:08.595Z",
+  "updatedAt": "2026-09-13T14:13:08.595Z"
+}
