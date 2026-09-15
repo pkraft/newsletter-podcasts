@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-15",
+  "guid": "9015cd5d-44f9-5fd6-b4f6-6561c8c91c46",
+  "externalId": "ai-news-2026-09-15",
+  "title": "Daily AI Newsletter — September 15, 2026",
+  "summary": "A call to slow AI development shook markets and delayed OpenAI's IPO, Apple rebuilt Siri on Google's AI model, and Microsoft published rules requiring its AI stay under human control.",
+  "publishDate": "2026-09-15T09:05:05-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6915471,
+    "durationSeconds": 404.741224,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-15T14:11:09.056Z",
+  "updatedAt": "2026-09-15T14:11:09.056Z"
+}
