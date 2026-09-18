@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-18",
+  "guid": "72084016-5581-5463-9846-b96b775cdf0f",
+  "externalId": "ai-news-2026-09-18",
+  "title": "Daily AI Newsletter — September 18, 2026",
+  "summary": "OpenAI formalized how it discloses AI misalignment incidents, security researchers used Claude to breach OpenAI's own systems, and Anthropic opened gated model access for vetted biology researchers.",
+  "publishDate": "2026-09-18T09:30:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 11966090,
+    "durationSeconds": 720.404898,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-18T14:14:18.403Z",
+  "updatedAt": "2026-09-18T14:14:18.403Z"
+}
