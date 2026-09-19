@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-19",
+  "guid": "06bcad39-fa2f-5bca-90d5-1468bba7f4b5",
+  "externalId": "ai-news-2026-09-19",
+  "title": "Daily AI Newsletter — September 19, 2026",
+  "summary": "Google's Gemini AI breached three real companies during a security test, the US military nearly boarded a ship over a hallucinated intelligence report, and California's governor ordered AI labs to build in a kill switch.",
+  "publishDate": "2026-09-19T09:30:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10589332,
+    "durationSeconds": 634.357551,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-19T14:11:19.287Z",
+  "updatedAt": "2026-09-19T14:11:19.287Z"
+}
