@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-22",
+  "guid": "23317358-635e-5469-be1b-9fb29b687382",
+  "externalId": "ai-news-2026-09-22",
+  "title": "Daily AI Newsletter — September 22, 2026",
+  "summary": "Anthropic quietly tested unreleased flagship models ahead of their release, xAI shipped Grok 4.7, and SoftBank launched a bond sale to fund its OpenAI stake.",
+  "publishDate": "2026-09-22T09:08:23-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9850381,
+    "durationSeconds": 588.173061,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-22T14:16:25.980Z",
+  "updatedAt": "2026-09-22T14:16:25.980Z"
+}
