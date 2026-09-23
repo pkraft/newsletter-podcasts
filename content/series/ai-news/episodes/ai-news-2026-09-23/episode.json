@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-23",
+  "guid": "90dce7b7-01bd-5de1-ac95-a6610ff24fa9",
+  "externalId": "ai-news-2026-09-23",
+  "title": "Daily AI Newsletter — September 23, 2026",
+  "summary": "Anthropic launched a cheaper, faster flagship model, OpenAI extended its newest model down to lower-cost tiers, and AI lab leaders are set to brief the UN Security Council on AI risk.",
+  "publishDate": "2026-09-23T09:03:22-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10892771,
+    "durationSeconds": 653.322449,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-23T14:12:02.225Z",
+  "updatedAt": "2026-09-23T14:12:02.225Z"
+}
