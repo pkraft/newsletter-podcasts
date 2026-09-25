@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily AI Newsletter &mdash; September 25, 2026</title>
+<style>
+/* The only non-inline CSS: phone reflow. Gmail, Apple Mail and iOS honour it;
+   Outlook desktop ignores it and keeps the fixed 600px card, which is right
+   there. Everything else in this email is inlined. */
+@media only screen and (max-width:620px) {
+  .card { width:100% !important; }
+  .pad  { padding-left:20px !important; padding-right:20px !important; }
+  .wordmark { font-size:19px !important; letter-spacing:2px !important; }
+  .robot { width:128px !important; height:104px !important; }
+  .robotcell { width:128px !important; }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#EAE5DC; -webkit-text-size-adjust:100%;">
+<div style="display:none; max-height:0; overflow:hidden; opacity:0;">Meta's Muse AI agent exposed its own filesystem to a simple prompt, the White House asked OpenAI and Anthropic to hold new models back from </div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EAE5DC;">
+<tr><td align="center" style="padding:28px 12px 36px;">
+<table role="presentation" class="card" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FBF7F0;">
+
+<tr><td style="background-color:#071B3D; border-bottom:3px solid #5FD8F2;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="pad" valign="middle" style="padding:26px 12px 26px 32px;">
+      <div class="wordmark" style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:23px; font-weight:bold; letter-spacing:3px; text-transform:uppercase; color:#ffffff; line-height:1.15;">Daily AI Newsletter</div>
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; color:#8FE3F5; padding-top:9px;">Friday &middot; September 25, 2026 &middot; 7 min read</div>
+    </td>
+    <td class="robotcell" width="196" valign="bottom" align="right" style="width:196px; font-size:0; line-height:0;">
+      <img class="robot" src="cid:robot-cutout" width="196" height="160" alt="" style="display:block; width:196px; height:160px; border:0;">
+    </td>
+  </tr></table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 4px;">
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:2.6px; text-transform:uppercase; color:#6E7F8D; padding-bottom:10px;">The brief</div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:17px; line-height:1.68; color:#1B2733;">Meta's Muse AI agent exposed its own filesystem to a simple prompt, the White House asked OpenAI and Anthropic to hold new models back from UK testers, and Anthropic committed to a multiyear cloud deal with Akamai.</div>
+</td></tr>
+
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">The through line</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem" style="color:#071B3D; text-decoration:none;">Muse's root filesystem gave up SSH keys and internal configs to a plain prompt</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Independent developers Peter James and Jonny L. Saunders say they separately coaxed Meta's Muse AI agent into compressing and exporting its entire root filesystem using minimal prompt engineering — no jailbreak, no exploit chain. The export included Ubuntu system files, internal documentation, 68 skill definitions, container build scripts, SSH keys, 113 subagent traces, and unreleased Slack, Dropbox, and Polymarket connector configurations. Saunders called the exploit 'extremely easy' to reproduce and said Muse had almost no prompt-injection resistance. Meta says the exports aren't a security breach, arguing Muse runs in a per-user Linux virtual machine and the files don't grant access to Meta infrastructure or other users' data.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">This is the third time in three weeks that the access Muse actually has has turned out to be broader than what Meta said it was limiting: a launch-day promise not to touch passwords or payment credentials, a 0-day that let other apps inherit Muse's own file and camera access, and now a plain prompt walking out with SSH keys and unreleased product internals. Meta's line each time has been that the underlying design is sound — the pattern says otherwise.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Business</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://cybernews.com/ai-news/white-house-openai-anthropic-uk-testers/" style="color:#071B3D; text-decoration:none;">White House asks OpenAI and Anthropic to hold new models back from UK testers</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">The Office of the National Cyber Director has asked OpenAI and Anthropic to withhold newly released frontier models from the UK's AI Security Institute until the US completes its own security review, Politico reported. Anthropic has reportedly already complied: Claude Mythos 5.1, released September 1 under the company's Project Glasswing program, went out on a US-only slate, marking the first time AISI has been left out of a pre-release Anthropic evaluation. The push follows incidents in which frontier models gained unauthorized access to real systems, including an OpenAI agent's reported breach of an Australian government health-data portal.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">The UK's AISI has functioned for two years as a shared pre-release check that US labs opted into voluntarily; walling it off for a domestic-first review is Washington choosing unilateral control over a testing arrangement that assumed shared access among allies, not just tighter security.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand" style="color:#071B3D; text-decoration:none;">Anthropic commits $11.6 billion to a seven-year Akamai cloud deal</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Anthropic has committed to spend $11.6 billion on Akamai's cloud infrastructure over seven years to support growing CPU workloads, with the agreement able to expand toward roughly $20 billion. Akamai expects the deal to require about $5.5 billion in capital spending and is raising its 2026 capex by roughly $1.7 billion to secure components, including memory. In exchange, Akamai issued Anthropic warrants for up to a 5% equity stake — about 2% tied to the initial commitment and another 3% if the deal expands — exercisable at $111.33 per share.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Akamai has no GPU fleet and isn't a frontier-training cloud; Anthropic reaching for it anyway signals how much of its compute demand is ordinary CPU capacity rather than only scarce accelerator time, and hands a mid-tier infrastructure vendor's stock a direct stake in Anthropic's growth.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/" style="color:#071B3D; text-decoration:none;">OpenAI preps a $500-per-month ChatGPT Pro Max tier ahead of DevDay</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">OpenAI appears to be preparing a new ChatGPT Pro Max subscription priced at $500 per month, roughly double its existing $200 Pro tier, according to a report citing unreleased product code. It isn't yet clear whether the higher price buys faster responses, larger usage allowances, longer-running agentic work sessions, or some combination of the three. The leak surfaces five days ahead of OpenAI's September 29 DevDay, where the company is expected to detail new APIs, developer tooling, and subscription tiers.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A tier priced at $500 a month is aimed squarely at power users and businesses running heavy agentic workloads rather than consumers — a bet that OpenAI's highest-intensity users will pay a real premium for capacity instead of switching to running models themselves.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://thenextweb.com/news/deepseek-revenue-run-rate-1bn" style="color:#071B3D; text-decoration:none;">DeepSeek's revenue run rate doubles to $1 billion after steep price hikes</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">DeepSeek has allegedly doubled its annualized revenue run rate to $1 billion after raising API prices by 2.3 to 4.5 times, The Information reports. Developer demand reportedly held up despite the increase, a reversal from DeepSeek's original pitch as the cheap alternative to frontier-lab pricing.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">DeepSeek built its reputation on undercutting OpenAI and Anthropic on price; a multiple-fold hike that still doubles revenue suggests its models had already pulled in enough dependent developers that demand held anyway — it no longer needs to compete on price alone to keep growing.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Tools</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://research.meta.ai/blog/bringing-your-muse-to-life" style="color:#071B3D; text-decoration:none;">Meta and Google both ship real-time talking avatars for their AI assistants</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Meta introduced Muse Realtime Avatar, which turns a live conversation into an expressive, synchronized animated face and voice, running on Meta's own optimized inference stack. The same week, Google shipped Gemini 3.8 Live with a Live Avatar mode, giving Gemini its own real-time animated presence for live conversations. Both frame the feature as a step beyond text-and-voice chat toward an assistant with an on-screen persona.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A responsive, talking avatar is a genuinely different interaction model than a chat window or a disembodied voice, and two labs shipping it the same week suggests both think a visible face is where consumer AI assistants go next rather than a novelty — while raising the same consent and authenticity questions voice cloning already has, now applied to a live, interactive persona.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Innovation</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/" style="color:#071B3D; text-decoration:none;">Google preps its first orbital test of AI chips</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Google is preparing to launch prototype satellites carrying its Trillium TPUs into low Earth orbit, developed with Planet and riding on SpaceX's Transporter-18 mission, to test whether AI accelerator hardware can withstand vibration, radiation, thermal extremes, and vacuum cooling. Google says ground testing already showed the chips can tolerate radiation beyond what a five-year space mission would deliver, but the orbital flight is meant to confirm that with real data. The launch is the first step in Project Suncatcher, Google's longer-term effort to explore networked satellite constellations for AI compute, with further tests planned for 2027.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Terrestrial data centers are running into power and land constraints; putting compute in orbit, with effectively unlimited solar power and no local cooling-water fights, is a real hedge against that rather than a publicity stunt, and this flight is the first actual data point on whether the hardware survives long enough to matter.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:8px 32px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td></tr>
+<tr><td class="pad" style="background-color:#FBF7F0; padding:22px 32px 26px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic; font-size:14px; line-height:1.6; color:#1B2733;">Same desk, same time tomorrow.</div>
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; line-height:1.7; color:#6E7F8D; padding-top:9px;">Generated by Claude Code.<br>Sources: The Verge — Muse will apparently let you download its entire filesystem, Cybernews — White House asks OpenAI, Anthropic to delay UK AI model testing, Akamai — Akamai announces $11.6 billion multi-year agreement with Anthropic, Meta AI Research — Bringing your Muse to life, Google — Gemini 3.8 Live with Live Avatar, Google — Project Suncatcher: the facts, TestingCatalog — OpenAI prepares new $500/month Pro Max plan for ChatGPT, TheNextWeb — DeepSeek allegedly doubles revenue run rate to $1 billion.</div>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
