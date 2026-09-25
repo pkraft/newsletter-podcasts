@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-25",
+  "guid": "ece91e1e-f797-5b0e-a15e-2be1a2102f2f",
+  "externalId": "ai-news-2026-09-25",
+  "title": "Daily AI Newsletter — September 25, 2026",
+  "summary": "Meta's Muse AI agent exposed its own filesystem to a simple prompt, the White House asked OpenAI and Anthropic to hold new models back from UK testers, and Anthropic committed to a multiyear cloud deal with Akamai.",
+  "publishDate": "2026-09-25T09:03:21-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8978936,
+    "durationSeconds": 533.707755,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-25T14:11:08.491Z",
+  "updatedAt": "2026-09-25T14:11:08.491Z"
+}
