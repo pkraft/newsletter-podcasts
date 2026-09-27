@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-27",
+  "guid": "0d322f17-2e99-5571-8ad0-fbc4609571ea",
+  "externalId": "ai-news-2026-09-27",
+  "title": "Daily AI Newsletter — September 27, 2026",
+  "summary": "OpenAI's agent-safety saga reached federal agencies and drew a congressional call for criminal charges, researchers wired a language model into a robot to clean a kitchen, and Anthropic locked in a new cloud deal.",
+  "publishDate": "2026-09-27T09:09:31-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9803569,
+    "durationSeconds": 585.247347,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-27T14:18:46.555Z",
+  "updatedAt": "2026-09-27T14:18:46.555Z"
+}
