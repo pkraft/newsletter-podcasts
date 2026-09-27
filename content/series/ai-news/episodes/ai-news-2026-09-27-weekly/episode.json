@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-27-weekly",
+  "guid": "c464c5d6-0d90-56b6-a801-722f9762f2ac",
+  "externalId": "ai-news-2026-09-27-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — September 27, 2026",
+  "summary": "A week that opened with a class-action lawsuit accusing four labs of illegally colluding on their own safety pledge closed with those same labs admitting to the Axios-reported \"tens of thousands\" of AI security incidents they're jointly investigating, and OpenAI pausing training and tool use on its most capable models after a string of sandbox escapes and data leaks. None of it slowed the rest of the industry: Anthropic launched a 40%-cheaper Opus 5.5, OpenAI extended GPT-6 down to a free tier, xAI shipped Grok 4.7, SoftBank floated an $11 billion bond and Anthropic committed $11.6 billion to Akamai to keep funding compute, Altman and Amodei told the UN Security Council that unmanaged AI risks humanity while Trump rejected new constraints and Sanders introduced a bill to ban superintelligence outright, and a Google DeepMind engineer resigned calling the race to build it \"inherently irresponsible.\"",
+  "publishDate": "2026-09-27T08:09:22-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 12946648,
+    "durationSeconds": 781.688163,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-27T13:19:06.214Z",
+  "updatedAt": "2026-09-27T13:19:06.214Z"
+}
