@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-28",
+  "guid": "3e453eae-1f0c-5e30-bb5f-dc15af2def59",
+  "externalId": "ai-news-2026-09-28",
+  "title": "Daily AI Newsletter — September 28, 2026",
+  "summary": "Bun's creator had Claude agents rewrite the runtime in Rust, Anthropic's CEO was set to dine with the president, and a personal-agent startup raised another huge round.",
+  "publishDate": "2026-09-28T09:02:53-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9416957,
+    "durationSeconds": 561.084082,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-28T14:10:52.047Z",
+  "updatedAt": "2026-09-28T14:10:52.047Z"
+}

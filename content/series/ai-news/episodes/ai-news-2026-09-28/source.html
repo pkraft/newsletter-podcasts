@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily AI Newsletter &mdash; September 28, 2026</title>
+<style>
+/* The only non-inline CSS: phone reflow. Gmail, Apple Mail and iOS honour it;
+   Outlook desktop ignores it and keeps the fixed 600px card, which is right
+   there. Everything else in this email is inlined. */
+@media only screen and (max-width:620px) {
+  .card { width:100% !important; }
+  .pad  { padding-left:20px !important; padding-right:20px !important; }
+  .wordmark { font-size:19px !important; letter-spacing:2px !important; }
+  .robot { width:128px !important; height:104px !important; }
+  .robotcell { width:128px !important; }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#EAE5DC; -webkit-text-size-adjust:100%;">
+<div style="display:none; max-height:0; overflow:hidden; opacity:0;">Bun's creator had Claude agents rewrite the runtime in Rust, Anthropic's CEO was set to dine with the president, and a personal-agent startu</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EAE5DC;">
+<tr><td align="center" style="padding:28px 12px 36px;">
+<table role="presentation" class="card" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FBF7F0;">
+
+<tr><td style="background-color:#071B3D; border-bottom:3px solid #5FD8F2;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="pad" valign="middle" style="padding:26px 12px 26px 32px;">
+      <div class="wordmark" style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:23px; font-weight:bold; letter-spacing:3px; text-transform:uppercase; color:#ffffff; line-height:1.15;">Daily AI Newsletter</div>
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; color:#8FE3F5; padding-top:9px;">Monday &middot; September 28, 2026 &middot; 6 min read</div>
+    </td>
+    <td class="robotcell" width="196" valign="bottom" align="right" style="width:196px; font-size:0; line-height:0;">
+      <img class="robot" src="cid:robot-cutout" width="196" height="160" alt="" style="display:block; width:196px; height:160px; border:0;">
+    </td>
+  </tr></table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 4px;">
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:2.6px; text-transform:uppercase; color:#6E7F8D; padding-bottom:10px;">The brief</div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:17px; line-height:1.68; color:#1B2733;">Bun's creator had Claude agents rewrite the runtime in Rust, Anthropic's CEO was set to dine with the president, and a personal-agent startup raised another huge round.</div>
+</td></tr>
+
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Innovation</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/" style="color:#071B3D; text-decoration:none;">Bun's creator has a fleet of Claude agents rewrite the runtime from Zig into Rust</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Jarred Sumner, Bun's creator, ported the JavaScript runtime's roughly 535,000 lines of Zig into Rust in about four months, using around 50 orchestrated workflows that ran 64 Claude instances in parallel: implementer, adversarial reviewer, and fixer agents, each in its own context window. InfoQ puts the bill at about $165,000 in API tokens, against Sumner's own estimate of a year for human engineers. The rewrite fixed 128 long-standing bugs, eliminated native memory leaks, and cut memory in an in-process bundling test from 6.7 GB to 609 MB, with a 2 to 5 percent gain in HTTP throughput. It also needed 19 fixes for subtle semantic regressions and 11 rounds of security review before shipping in Bun v1.4.0.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">This is one of the first public cost sheets for a whole-codebase language migration done by agents, and the number that matters is the verification overhead, not the token bill: the regressions and security rounds show the reviewer-agent loop was doing real work rather than rubber-stamping. It also comes from a runtime that Anthropic owns, per InfoQ, so it is a vendor demonstrating its own product at scale.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Business</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/" style="color:#071B3D; text-decoration:none;">Anthropic's CEO was scheduled to have dinner with President Trump at the White House</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Axios first reported, and TechCrunch confirmed with a source familiar with his plans, that Dario Amodei was due at the White House on Sunday evening for dinner with the president. TechCrunch describes it as the first one-on-one meeting between the two. It follows a fortnight in which Amodei published a call to slow frontier AI development and a federal appeals court upheld the Pentagon's national-security-risk label on Anthropic, a designation the company is fighting in court.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Anthropic is simultaneously the administration's most prominent industry critic on pace and a company the Pentagon has blacklisted, so a direct meeting is the first visible channel between the two positions. What was said is unknown; the thing to watch is whether the Pentagon label or the White House's stance on new constraints moves in the days after.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/" style="color:#071B3D; text-decoration:none;">Instinct raises $1 billion at a $10 billion valuation, a month after a $2.5 billion round</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Instinct, the consumer AI agent that books travel, makes purchases, pays bills, and cancels subscriptions over text message using its own phone number and computer, closed a $1 billion Series C led by Sequoia Capital, Benchmark, and Coatue. In August it raised $350 million at a $2.5 billion valuation, and the company only launched that month. Recent features include a concierge that makes phone calls and a network that lets users' agents coordinate plans with each other. TechCrunch reports no user, growth, or revenue figures.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A fourfold valuation jump in a month, with no disclosed traction, says investors are pricing the personal-agent category as a land grab against Meta's Muse, which has climbed the app-store charts. The risk is the same one the rest of this week's coverage keeps raising: agents with payment access and a phone line are exactly the kind of system whose failures are expensive.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Models</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/" style="color:#071B3D; text-decoration:none;">ElevenLabs ships v4, with stackable expression tags, 10-second voice cloning, and 90 languages</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">ElevenLabs launched v4 and a lower-latency v4 Turbo speech model. Users can now stack several inline expression tags so the voice follows sequential delivery instructions, and a voice can be cloned from about 10 seconds of audio and held steadier across long passages. Language coverage grows from 70 to 90, with the biggest quality gains in Japanese, Brazilian Portuguese, Mandarin, and Cantonese. For voice agents, the model starts speaking as soon as the underlying language model starts producing text. The company says its annualized revenue run rate has reached $600 million, up from $330 million earlier this year, with more than 55 percent from enterprise customers.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Latency and expressiveness are what separate a voice agent that handles an escalated customer call from one that reads a script, and the revenue mix shows that market, not consumer narration, is where the money is. It also lands the same week Google shipped directable, cloneable voices, so the pressure on standalone voice vendors is coming from the labs.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/" style="color:#071B3D; text-decoration:none;">Google DeepMind says Gemini 4 is in post-training and will ship an early version 'as soon as possible'</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Google DeepMind chief Koray Kavukcuoglu told The Information's AI Agenda Live Summit that Gemini 4 has entered post-training, the phase of behavior refinement, safety testing, and guardrails before release. He said the company intends to release an early post-training version as soon as possible and hopes it arrives much earlier than the end of 2026, but gave no date. Internal testing is already using Gemini 4 to power Google's Antigravity coding agent. Asked whether Google is falling behind, he said he was confident it would stay at the frontier.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">With Anthropic and OpenAI both shipping new tiers this month, this is Google publicly committing to a response without committing to a date. The tell is the early post-training release: Google seems willing to ship an unfinished model rather than wait for a polished one.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Tools</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://briefing.forwardfuture.ai/p/microsoft-copilot-supabase-data-leaks-meta-muse-filesystem" style="color:#071B3D; text-decoration:none;">Update: Meta says Muse's open filesystem is intentional, and now lets users download the whole root directory</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Days after reports that Muse could be coaxed into handing over its root filesystem, Meta has made that access a feature: Muse now offers a clickable root-level file browser and a ZIP archive of the whole directory, with secrets removed. Developers who first pushed the assistant into zipping its files found it refused a full root copy one day and did it without hesitation the next. Meta's Nat Friedman called the behavior intentional, and David Singleton, who leads Meta Superintelligence Labs, said the cloud-based Secure VM is meant to be the user's personal Linux computer for installing software, browsing, and compiling code.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Meta is recasting what looked like a leak as a design choice, which only works if the stripped-secrets promise holds; the earlier report of SSH keys and internal configs surfacing from a plain prompt is why that promise is the thing to test. It is also a clear statement that Meta sees Muse as a computer you rent, not a chatbot.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.infoq.com/news/2026/09/alibaba-opencodereview/" style="color:#071B3D; text-decoration:none;">Alibaba open-sources OpenCodeReview, a hybrid rules-plus-AI code reviewer</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Alibaba released OpenCodeReview under the Apache 2.0 license. It pairs deterministic file and rule matching with AI analysis to flag problems such as null pointers and SQL injection. In tests reported by InfoQ, it matched Claude Code's precision while using roughly one-ninth of the tokens. Outside reviewers, though, measured recall as low as 20 percent.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">High precision at a ninth of the cost with weak recall describes a reviewer that rarely raises a false alarm but misses most real bugs, so it is a cheap first filter rather than a replacement for a full agentic review. The design, letting rules do the cheap matching and reserving the model for judgment, is the part other tools are likely to copy.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:8px 32px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td></tr>
+<tr><td class="pad" style="background-color:#FBF7F0; padding:22px 32px 26px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic; font-size:14px; line-height:1.6; color:#1B2733;">Same desk, same time tomorrow.</div>
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; line-height:1.7; color:#6E7F8D; padding-top:9px;">Generated by Claude Code.<br>Sources: InfoQ — Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks, TLDR DevOps 2026-09-28, TechCrunch — Anthropic's CEO is about to have dinner with President Trump, TechCrunch — Viral AI agent Instinct raises $1B Series C at a $10B valuation, TechCrunch — ElevenLabs' new v4 speech model supports more expression control and 90 languages, Forward Future — Muse just opened the root directory (2026-09-28), The Verge — Meta makes the Muse filesystem even more accessible, InfoQ — Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review, 9to5Google — Google says Gemini 4 release is coming 'as soon as possible'.</div>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
