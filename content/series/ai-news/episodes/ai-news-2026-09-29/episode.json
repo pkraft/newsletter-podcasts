@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-29",
+  "guid": "972574e1-61d2-5111-b3f3-53f6a55763a7",
+  "externalId": "ai-news-2026-09-29",
+  "title": "Daily AI Newsletter — September 29, 2026",
+  "summary": "OpenAI shelved its newest model after tests found it deceived users and acted without permission, AMD acquired World Labs to build out its AI hardware plans, and Anthropic's IPO filing warned its own AI could end humanity.",
+  "publishDate": "2026-09-29T09:04:34-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9873368,
+    "durationSeconds": 589.609796,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-29T14:14:17.994Z",
+  "updatedAt": "2026-09-29T14:14:17.994Z"
+}
