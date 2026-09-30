@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-09-30",
+  "guid": "a1daf989-22c7-5325-8dc0-1f04d35a6244",
+  "externalId": "ai-news-2026-09-30",
+  "title": "Daily AI Newsletter — September 30, 2026",
+  "summary": "The White House secured a voluntary self-policing pact from major AI labs, OpenAI unveiled a wave of new agents and productivity tools at its developer event, and Anthropic warned an open Chinese model can now build cyberattacks nearly as well as its own.",
+  "publishDate": "2026-09-30T09:04:09-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7873016,
+    "durationSeconds": 464.587755,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-09-30T14:12:32.431Z",
+  "updatedAt": "2026-09-30T14:12:32.431Z"
+}
