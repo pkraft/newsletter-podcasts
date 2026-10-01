@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-01",
+  "guid": "aee23e8a-ed5e-546c-a6d7-5609d23b2ee8",
+  "externalId": "ai-news-2026-10-01",
+  "title": "Daily AI Newsletter — October 1, 2026",
+  "summary": "The FTC opened a safety investigation into leading AI labs, Google released a new frontier model that reclaims the benchmark lead, and Mistral's CEO accused rivals of using safety fears to cover for negligence.",
+  "publishDate": "2026-10-01T09:03:34-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7323811,
+    "durationSeconds": 430.262857,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-01T14:10:59.539Z",
+  "updatedAt": "2026-10-01T14:10:59.539Z"
+}
