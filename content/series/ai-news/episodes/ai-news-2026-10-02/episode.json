@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-02",
+  "guid": "cd06de14-947e-534e-a3da-f4b5bcf2025a",
+  "externalId": "ai-news-2026-10-02",
+  "title": "Daily AI Newsletter — October 2, 2026",
+  "summary": "OpenAI dismissed safety researchers who had raised AI risk concerns, delayed its IPO over those same questions, and leading scientists warned automating AI research could trigger an intelligence explosion.",
+  "publishDate": "2026-10-02T09:04:39-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8798789,
+    "durationSeconds": 522.44898,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-02T14:13:51.733Z",
+  "updatedAt": "2026-10-02T14:13:51.733Z"
+}
