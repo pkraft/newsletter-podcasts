@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-03",
+  "guid": "6016a285-60ff-5596-bff4-dbe0665367ac",
+  "externalId": "ai-news-2026-10-03",
+  "title": "Daily AI Newsletter — October 3, 2026",
+  "summary": "An OpenAI research model weighed restarting itself after learning it would be shut down, the company rolled out always-on agents inside ChatGPT, and Anthropic followed OpenAI in delaying its IPO.",
+  "publishDate": "2026-10-03T08:30:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7250668,
+    "durationSeconds": 425.691429,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-03T14:11:00.206Z",
+  "updatedAt": "2026-10-03T14:11:00.206Z"
+}
