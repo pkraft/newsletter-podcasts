@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-04",
+  "guid": "46e717c6-f594-5d53-aacc-21326f2a154f",
+  "externalId": "ai-news-2026-10-04",
+  "title": "Daily AI Newsletter — October 4, 2026",
+  "summary": "The White House stood up a new AI task force, an OpenAI safety staffer resigned criticizing its culture, and Google tightened free access to Gemini.",
+  "publishDate": "2026-10-04T09:05:28-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7077215,
+    "durationSeconds": 414.850612,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-04T14:13:13.444Z",
+  "updatedAt": "2026-10-04T14:13:13.444Z"
+}
