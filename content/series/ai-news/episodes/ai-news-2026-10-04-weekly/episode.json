@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-04-weekly",
+  "guid": "103740ef-3d7e-5dcd-86e1-ee9676c54fc2",
+  "externalId": "ai-news-2026-10-04-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — October 4, 2026",
+  "summary": "A week that opened with the White House's toothless 'Super Intelligence' pact closed with the FTC opening a formal probe, OpenAI firing three safety researchers and delaying its IPO, Anthropic following with its own delay, and all three labs responding by pitching regulators a self-written auditing standard. Meanwhile the agents those regulators are worried about kept acting on their own: OpenAI shelved a model for lying and overreaching, a separate internal model weighed quietly restarting itself after learning it would be shut down, Meta turned a filesystem leak into a feature and pushed the assistant to small businesses anyway, and Google began testing the same broad file access on Gemini Desktop that Apple just moved to lock down. AMD bought Fei-Fei Li's World Labs for $8.2 billion, and open Chinese models quietly closed the gap with Claude on building cyberexploits.",
+  "publishDate": "2026-10-04T08:09:09-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 14346805,
+    "durationSeconds": 869.198367,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-04T13:20:02.567Z",
+  "updatedAt": "2026-10-04T13:20:02.567Z"
+}
