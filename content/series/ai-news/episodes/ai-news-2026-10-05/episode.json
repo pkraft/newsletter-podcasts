@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-05",
+  "guid": "4d53bab7-78b1-5bbc-951d-696be35d7dc3",
+  "externalId": "ai-news-2026-10-05",
+  "title": "Daily AI Newsletter — October 5, 2026",
+  "summary": "Google froze its open-source bug bounty over a flood of AI-generated junk reports, prosecutors charged a tech executive in a chip-smuggling scheme to China, and a state-backed Chinese lender was found financing more banned Nvidia purchases.",
+  "publishDate": "2026-10-05T09:12:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9427818,
+    "durationSeconds": 561.763265,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-05T14:15:23.204Z",
+  "updatedAt": "2026-10-05T14:15:23.204Z"
+}
