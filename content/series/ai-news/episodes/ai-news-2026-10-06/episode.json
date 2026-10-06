@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-06",
+  "guid": "8a2fad96-9161-5409-9839-372fb0e47a1d",
+  "externalId": "ai-news-2026-10-06",
+  "title": "Daily AI Newsletter — October 6, 2026",
+  "summary": "The Pentagon cut off Anthropic's Claude, a former Anthropic researcher repeated his AI-extinction warning to a city council under oath, and Reflection AI unveiled a huge open-weight model aimed at Chinese rivals.",
+  "publishDate": "2026-10-06T09:03:31-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6528853,
+    "durationSeconds": 380.577959,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-06T14:11:00.818Z",
+  "updatedAt": "2026-10-06T14:11:00.818Z"
+}
