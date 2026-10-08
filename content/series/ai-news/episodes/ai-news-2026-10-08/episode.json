@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-08",
+  "guid": "481d0873-da07-5b56-bc4a-a5046a349e84",
+  "externalId": "ai-news-2026-10-08",
+  "title": "Daily AI Newsletter — October 8, 2026",
+  "summary": "OpenAI gave ChatGPT a new visual interface, Finland halted Google's data center construction, and Anthropic shipped a faster, cheaper model.",
+  "publishDate": "2026-10-08T09:15:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7063423,
+    "durationSeconds": 413.988571,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-08T14:11:46.694Z",
+  "updatedAt": "2026-10-08T14:11:46.694Z"
+}
