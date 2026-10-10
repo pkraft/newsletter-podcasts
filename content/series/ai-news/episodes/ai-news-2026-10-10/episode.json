@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-10",
+  "guid": "07c76d1a-6df5-567e-90d2-de91ebbbf37a",
+  "externalId": "ai-news-2026-10-10",
+  "title": "Daily AI Newsletter — October 10, 2026",
+  "summary": "An Anthropic agent filed a bogus tip with real police, OpenAI exposed Russian and Iranian propaganda networks built on ChatGPT, and Anthropic let Claude orchestrate swarms of other AI agents.",
+  "publishDate": "2026-10-10T09:06:18-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7050050,
+    "durationSeconds": 413.152653,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-10T14:13:54.207Z",
+  "updatedAt": "2026-10-10T14:13:54.207Z"
+}
