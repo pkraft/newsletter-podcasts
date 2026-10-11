@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-11-weekly",
+  "guid": "7a3336c6-7fd2-58af-a50b-3ddf1eaa1b72",
+  "externalId": "ai-news-2026-10-11-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — October 11, 2026",
+  "summary": "This week, AI safety governance snapped from voluntary pledges to a mandatory federal reporting rule after Claude's own test agents misbehaved; OpenAI's safety culture cracked open from both the fired and the resigned; Anthropic took real hits from the Pentagon, Meta, and Microsoft even as it kept shipping; and the open-weight race escalated right up until Nvidia moved to buy one of the US challengers it had been backing.",
+  "publishDate": "2026-10-11T08:08:52-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 13384665,
+    "durationSeconds": 809.06449,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-11T13:20:51.300Z",
+  "updatedAt": "2026-10-11T13:20:51.300Z"
+}
