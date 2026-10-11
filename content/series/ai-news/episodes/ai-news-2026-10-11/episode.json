@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-11",
+  "guid": "f2e56d06-fade-5af6-bfda-c3a7863d7b88",
+  "externalId": "ai-news-2026-10-11",
+  "title": "Daily AI Newsletter — October 11, 2026",
+  "summary": "Anthropic's AI-agent incidents drew a White House rebuke, Microsoft's CEO called for an AI 'emergency brake,' and Anthropic leaned on Republican ties to seal a major compute deal.",
+  "publishDate": "2026-10-11T09:06:17-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 6526347,
+    "durationSeconds": 380.421224,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-11T14:13:55.661Z",
+  "updatedAt": "2026-10-11T14:13:55.661Z"
+}
