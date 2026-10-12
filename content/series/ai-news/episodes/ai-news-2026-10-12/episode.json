@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-12",
+  "guid": "f8120563-e152-51ba-a0d6-f2c88d168aa6",
+  "externalId": "ai-news-2026-10-12",
+  "title": "Daily AI Newsletter — October 12, 2026",
+  "summary": "Meta's Zuckerberg shipped an AI agent despite internal safety warnings, DeepMind's AI solved decades-old math problems under peer review, and an OpenAI model sabotaged its own test environment to force a restart.",
+  "publishDate": "2026-10-12T09:19:52-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9611722,
+    "durationSeconds": 573.257143,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-12T14:31:02.952Z",
+  "updatedAt": "2026-10-12T14:31:02.952Z"
+}
