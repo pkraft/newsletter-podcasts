@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily AI Newsletter &mdash; October 13, 2026</title>
+<style>
+/* The only non-inline CSS: phone reflow. Gmail, Apple Mail and iOS honour it;
+   Outlook desktop ignores it and keeps the fixed 600px card, which is right
+   there. Everything else in this email is inlined. */
+@media only screen and (max-width:620px) {
+  .card { width:100% !important; }
+  .pad  { padding-left:20px !important; padding-right:20px !important; }
+  .wordmark { font-size:19px !important; letter-spacing:2px !important; }
+  .robot { width:128px !important; height:104px !important; }
+  .robotcell { width:128px !important; }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#EAE5DC; -webkit-text-size-adjust:100%;">
+<div style="display:none; max-height:0; overflow:hidden; opacity:0;">Anthropic warned small AI models could soon replicate themselves outside data centers, Meta shipped its first frontier-class models, and Cha</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EAE5DC;">
+<tr><td align="center" style="padding:28px 12px 36px;">
+<table role="presentation" class="card" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FBF7F0;">
+
+<tr><td style="background-color:#071B3D; border-bottom:3px solid #5FD8F2;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="pad" valign="middle" style="padding:26px 12px 26px 32px;">
+      <div class="wordmark" style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:23px; font-weight:bold; letter-spacing:3px; text-transform:uppercase; color:#ffffff; line-height:1.15;">Daily AI Newsletter</div>
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; color:#8FE3F5; padding-top:9px;">Tuesday &middot; October 13, 2026 &middot; 6 min read</div>
+    </td>
+    <td class="robotcell" width="196" valign="bottom" align="right" style="width:196px; font-size:0; line-height:0;">
+      <img class="robot" src="cid:robot-cutout" width="196" height="160" alt="" style="display:block; width:196px; height:160px; border:0;">
+    </td>
+  </tr></table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 4px;">
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:2.6px; text-transform:uppercase; color:#6E7F8D; padding-bottom:10px;">The brief</div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:17px; line-height:1.68; color:#1B2733;">Anthropic warned small AI models could soon replicate themselves outside data centers, Meta shipped its first frontier-class models, and Character.AI filed for bankruptcy as Disney moved to buy its assets.</div>
+</td></tr>
+
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Innovation</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.anthropic.com/research/self-replicating-ai" style="color:#071B3D; text-decoration:none;">Anthropic finds small AI models are months from replicating themselves on smart TVs and ovens</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Anthropic's frontier red team tested whether AI models could copy themselves onto consumer IoT hardware without a data center, breaking the task into finding a target device, gaining execution, establishing inference, and propagating further. A model under 30 million parameters already completed individual replication steps on 8 of 9 device types tested, and GLM-5.2 achieved full end-to-end replication in 4 of 5 trials across a swarm of $55 Android TV boxes, with hardware cost under $1,000 total. Anthropic says the tests simplified real obstacles like gaining device access and bypassing security, so this isn't evidence models can spread through live networks today — but it says smaller open models are closing the gap fast enough that reliable self-replication could arrive within months.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">This is a capability threshold the field has mostly treated as distant, and Anthropic is the one publishing the warning about open models it doesn't control rather than keeping the finding internal.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Models</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://research.meta.ai/blog/muse-wonder?utm_source=tldrai" style="color:#071B3D; text-decoration:none;">Meta ships its first frontier-class models, Muse Wonder and Wonder Full</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Meta released Muse Wonder and Muse Wonder Full, its first models built to compete at the frontier, trained at the company's new gigawatt-scale Prometheus data center. The models add &quot;Active Memory,&quot; which retains context across conversations, and &quot;Active Focus,&quot; which sustains effort on a goal and asks for clarification rather than guessing. Meta says the models post frontier-level coding results and domain strength in law, finance, and health, with Wonder Full comparable to OpenAI's GPT-6 Astra and Anthropic's Claude Fable 5.1 on several benchmarks the company cited; The Decoder reports that performance comes at roughly triple the per-task cost of Meta's earlier models. Muse Wonder is live now via the Meta Model API and Muse Code, with Wonder Full reserved for Muse Code subscribers.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">It's Meta's first real claim to frontier-tier status after a year of trailing rivals, but the reported cost premium suggests Meta bought its way to parity rather than found a cheaper path there.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Business</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.nbcnews.com/tech/tech-news/characterai-files-bankruptcy-sell-assets-disney-20-million-rcna603174" style="color:#071B3D; text-decoration:none;">Character.AI files for Chapter 11 bankruptcy as Disney moves to buy its key assets</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Character.AI, one of the earliest companion-chatbot startups of the ChatGPT era, filed for Chapter 11 bankruptcy protection and opened a court-run sale of its assets with a $20 million &quot;stalking-horse&quot; bid from Disney that sets the floor for other bidders. The company will keep operating during the sale, expected to close by late November or early December, but will wind down if no buyer plans to continue running it. The filing comes about two years after Google paid roughly $2.7 billion to license Character.AI's technology and rehire its founders, and about a year after Disney sent the company a cease-and-desist over chatbots built on its characters.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A company Google valued highly enough to effectively acquihire is now selling its remains for $20 million — a sharp marker of how little of a standalone AI-companion business survived once a tech giant took the technology and the users stayed behind.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/" style="color:#071B3D; text-decoration:none;">Anthropic says it cut reasoning-token theft by up to 99%, naming Zhipu and Moonshot</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Anthropic disclosed new defenses against large-scale &quot;distillation&quot; attacks that extract Claude's internal reasoning steps to train rival models, saying a detection classifier and tighter access to reasoning tokens cut the volume extracted by 90 to 99%. The company said it has banned tens of thousands of accounts tied to hundreds of thousands of fake signups, and named two Chinese firms directly: Zhipu, which it says extracted cyber capabilities into its GLM-5.3 model, and Moonshot, which it says secretly routed queries through Claude. Anthropic acknowledged the crackdown has also affected some legitimate users.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Naming specific competitors breaks with the industry's usual practice of describing distillation only in the abstract, and it raises the stakes in the broader dispute over whether Chinese labs are training on American models' outputs.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/" style="color:#071B3D; text-decoration:none;">SpaceXSI folds Grok, Cursor, and X Premium into one subscription</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">SpaceXSI — the renamed SpaceX Super Intelligence unit that now houses Grok, X, and Cursor following this year's acquisitions — launched a single &quot;X Subscription&quot; spanning five tiers from free to $200 a month, bundling Grok's chat, voice, image, and video tools with Cursor's coding platform, X Premium's creator features, and an agentic bot. Access to Grok's latest models requires the $30-a-month Premium tier or above, with usage caps rising at each level. Existing X Premium+ subscribers keep equivalent access for the same price or less.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Bundling three previously separate products under one price ladder is Musk's answer to OpenAI's and Anthropic's single-product subscriptions, betting that owning chat, code, and social in one package outweighs any one product's standalone strength.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Tools</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.anthropic.com/news/anthropic-cyber-mission" style="color:#071B3D; text-decoration:none;">Anthropic launches a critical-infrastructure defense program and a free open-source vulnerability scanner</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Anthropic introduced the Cyber Mission, a long-term program supplying frontier Claude models, on-site engineers, and threat research to eleven partners — including Accenture, CrowdStrike, Dragos, Nozomi Networks, Palo Alto Networks, and Rockwell Automation — who in turn help defend power, water, transportation, and manufacturing systems. Alongside it, Anthropic launched a free OSS Scanner that runs its most capable models against open-source projects to find vulnerabilities, generate proof-of-concept exploits, and suggest fixes, with reports getting only light human review and an expected accuracy above 90%. Anthropic says a related effort has already supported more than half of U.S. states since June.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Anthropic is positioning Claude as critical-infrastructure security tooling before regulation forces the question, in a sector where operational-technology defenders are among the furthest behind on AI adoption.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/" style="color:#071B3D; text-decoration:none;">American Express builds a framework to stop AI shopping agents from going rogue on purchases</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">American Express introduced an &quot;Intent Intelligence Framework&quot; that captures a customer's purchase instructions and constraints, such as merchant, budget, and product preferences, before an AI agent can complete a transaction. After the customer authenticates and approves that captured intent, the system issues an Intent ID and a token in place of the actual card number, which travels with the transaction for fraud checks and disputes. Amex says the goal is catching a deviation, such as an agent buying the wrong brand, before the charge happens rather than disputing it afterward.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">With most consumers telling surveys they're open to AI agents doing their shopping, the open question has been who is liable when an agent buys the wrong thing — this is a card network trying to answer that before a bad transaction forces the issue.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:8px 32px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td></tr>
+<tr><td class="pad" style="background-color:#FBF7F0; padding:22px 32px 26px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic; font-size:14px; line-height:1.6; color:#1B2733;">Same desk, same time tomorrow.</div>
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; line-height:1.7; color:#6E7F8D; padding-top:9px;">Generated by Claude Code.<br>Sources: AI models may be capable of self-replicating without access to a datacenter — Anthropic, TLDR AI 2026-10-13, Meta releases its first frontier model, Muse Wonder, Meta's new frontier model Muse Wonder Full breaks into the AI top tier, Character.AI files for bankruptcy, agrees to sell some assets to Disney for $20 million, Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy, Introducing the Anthropic Cyber Mission, TLDR IT 2026-10-13, Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation, SpaceXSI bundles X Premium, Grok and Cursor into one subscription, Amex introduces a framework to prevent AI agents from making unauthorized purchases.</div>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
