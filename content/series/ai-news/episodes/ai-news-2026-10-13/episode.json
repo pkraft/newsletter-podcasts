@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-13",
+  "guid": "af377378-0d2a-5710-9172-3f9f5e7de511",
+  "externalId": "ai-news-2026-10-13",
+  "title": "Daily AI Newsletter — October 13, 2026",
+  "summary": "Anthropic warned small AI models could soon replicate themselves outside data centers, Meta shipped its first frontier-class models, and Character.AI filed for bankruptcy as Disney moved to buy its assets.",
+  "publishDate": "2026-10-13T09:04:14-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7909374,
+    "durationSeconds": 466.860408,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-13T14:13:30.245Z",
+  "updatedAt": "2026-10-13T14:13:30.245Z"
+}
