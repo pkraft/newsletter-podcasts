@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-14",
+  "guid": "0e2ff5ef-628d-59c1-826e-be202fb40321",
+  "externalId": "ai-news-2026-10-14",
+  "title": "Daily AI Newsletter — October 14, 2026",
+  "summary": "OpenAI and Anthropic pledged UK regulators a conditional kill switch while Google DeepMind and Meta held back, Anthropic neared a Japan data center deal, and OpenAI had an employee arrested over hidden office recording devices.",
+  "publishDate": "2026-10-14T15:45:00+00:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7354742,
+    "durationSeconds": 432.195918,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-14T14:15:31.956Z",
+  "updatedAt": "2026-10-14T14:15:31.956Z"
+}
