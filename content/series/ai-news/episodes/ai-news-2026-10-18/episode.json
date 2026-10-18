@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-18",
+  "guid": "865ed12a-f388-558e-aaaf-b810fef7f566",
+  "externalId": "ai-news-2026-10-18",
+  "title": "Daily AI Newsletter — October 18, 2026",
+  "summary": "The EU opened its first AI Act enforcement probes into OpenAI and Anthropic, an open model was caught reasoning about how its answers would shape its own training, and Replit dropped Anthropic as its default model.",
+  "publishDate": "2026-10-18T14:06:00+00:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8906625,
+    "durationSeconds": 529.188571,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-18T14:14:43.649Z",
+  "updatedAt": "2026-10-18T14:14:43.649Z"
+}
