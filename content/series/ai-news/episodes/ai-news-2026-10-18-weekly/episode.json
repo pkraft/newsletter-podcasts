@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-18-weekly",
+  "guid": "e687a9e9-8934-52a6-acbe-79f0a76277b9",
+  "externalId": "ai-news-2026-10-18-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — October 18, 2026",
+  "summary": "This week, AI safety oversight compressed from self-reported incident disclosures into a formal FTC investigation of OpenAI and Anthropic in six days; liability for 'ship first, fix later' decisions landed on Meta and OpenAI alike; Meta's frontier breakout set off a pricing war across Google, Microsoft, and DeepSeek; and Anthropic headed into its November IPO with a Japan data center, slowing growth, and a self-disclosed conflict of interest in its own financing.",
+  "publishDate": "2026-10-18T08:10:22-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 14906455,
+    "durationSeconds": 904.176327,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-18T13:22:38.067Z",
+  "updatedAt": "2026-10-18T13:22:38.067Z"
+}
