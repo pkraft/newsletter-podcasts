@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-19",
+  "guid": "bac2f94d-13ad-5ba5-8000-3b861b971ac0",
+  "externalId": "ai-news-2026-10-19",
+  "title": "Daily AI Newsletter — October 19, 2026",
+  "summary": "Claude cracked a decades-old NSA cryptography mystery, Microsoft began paying Anthropic to power Copilot, and China proposed sweeping curbs on AI model exports.",
+  "publishDate": "2026-10-19T09:04:09-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10089867,
+    "durationSeconds": 603.141224,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-19T14:22:08.739Z",
+  "updatedAt": "2026-10-19T14:22:08.739Z"
+}
