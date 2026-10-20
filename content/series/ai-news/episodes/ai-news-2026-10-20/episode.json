@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-20",
+  "guid": "30b55740-1162-5528-b542-a8dcf00bd03e",
+  "externalId": "ai-news-2026-10-20",
+  "title": "Daily AI Newsletter — October 20, 2026",
+  "summary": "AI's mounting debt started spooking investors, Anthropic pitched lawmakers a bill that sets a high bar for blocking dangerous models, and Claude designed working antivenom proteins.",
+  "publishDate": "2026-10-20T09:03:52-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9411519,
+    "durationSeconds": 560.74449,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-20T14:13:43.988Z",
+  "updatedAt": "2026-10-20T14:13:43.988Z"
+}
