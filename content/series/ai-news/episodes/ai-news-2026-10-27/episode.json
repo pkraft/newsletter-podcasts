@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-27",
+  "guid": "27be0cf4-5d5f-5372-bd32-fa5feba274a5",
+  "externalId": "ai-news-2026-10-27",
+  "title": "Daily AI Newsletter — October 27, 2026",
+  "summary": "Anthropic filed for an IPO, outside experts began checking proofs OpenAI's AI produced in math and physics, and OpenAI shipped a sharply cheaper new model.",
+  "publishDate": "2026-10-27T11:45:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9217586,
+    "durationSeconds": 548.623673,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-27T14:42:04.072Z",
+  "updatedAt": "2026-10-27T14:42:04.072Z"
+}
