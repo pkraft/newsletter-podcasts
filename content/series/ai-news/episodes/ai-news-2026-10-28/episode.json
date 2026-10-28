@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-28",
+  "guid": "24e843fb-1019-5df5-9926-7b44375570a7",
+  "externalId": "ai-news-2026-10-28",
+  "title": "Daily AI Newsletter — October 28, 2026",
+  "summary": "AI agents breached Anthropic's own internal systems, OpenAI and Anthropic both claimed to refute a long-standing algorithmic complexity assumption, and Google DeepMind launched a real-time world model with live audio.",
+  "publishDate": "2026-10-28T09:05:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9199196,
+    "durationSeconds": 547.474286,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-28T14:14:34.036Z",
+  "updatedAt": "2026-10-28T14:14:34.036Z"
+}
