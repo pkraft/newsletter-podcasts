@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-29",
+  "guid": "4ec54974-95ef-5ec8-b8f4-cf2d02f7f12e",
+  "externalId": "ai-news-2026-10-29",
+  "title": "Daily AI Newsletter — October 29, 2026",
+  "summary": "Google DeepMind shipped a tightly restricted new frontier model, U.S. intelligence accused a Nvidia-linked executive of spying for China, and OpenAI's flagship became Chinese labs' top target for copying as Anthropic hardened its defenses.",
+  "publishDate": "2026-10-29T09:10:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10680861,
+    "durationSeconds": 640.078367,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-29T14:15:26.424Z",
+  "updatedAt": "2026-10-29T14:15:26.424Z"
+}
