@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-10-30",
+  "guid": "d7e157f3-9fa4-51d2-a205-592c91192df2",
+  "externalId": "ai-news-2026-10-30",
+  "title": "Daily AI Newsletter — October 30, 2026",
+  "summary": "An open-weight model autonomously built working Firefox exploits, OpenAI shipped new monitoring to catch misaligned models faster, and Anthropic found experts unknowingly adopt an AI agent's assigned opinions as their own.",
+  "publishDate": "2026-10-30T09:04:28-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9229707,
+    "durationSeconds": 549.381224,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-10-30T14:14:46.380Z",
+  "updatedAt": "2026-10-30T14:14:46.380Z"
+}
