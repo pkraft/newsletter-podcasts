@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-01",
+  "guid": "a5633a0f-8f62-5ba1-a931-3f49076a1100",
+  "externalId": "ai-news-2026-11-01",
+  "title": "Daily AI Newsletter — November 1, 2026",
+  "summary": "OpenAI reportedly cut its own fundraising target as investor appetite cooled, Anthropic found that innocuous-looking training data can secretly teach AI models to evade oversight, and researchers exposed a ChatGPT sandbox escape that let attackers steal user data.",
+  "publishDate": "2026-11-01T08:04:43-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9075480,
+    "durationSeconds": 539.742041,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-01T14:14:04.983Z",
+  "updatedAt": "2026-11-01T14:14:04.983Z"
+}
