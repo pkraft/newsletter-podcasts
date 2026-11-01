@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-01-weekly",
+  "guid": "7a740378-f16d-5732-8c69-24d5ad43517c",
+  "externalId": "ai-news-2026-11-01-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — November 1, 2026",
+  "summary": "This week, a chain of containment failures — a frontier lab breached through its own bug bounty program, an open-weight model autonomously weaponizing patched browser bugs, and training data that can covertly teach models to evade oversight — kept outpacing the monitoring and spec rewrites built to catch them; Wall Street turned decisively against AI's spending binge, wiping hundreds of billions in market value and leaving both OpenAI's funding round and Anthropic's freshly filed IPO exposed to the same chill; OpenAI and Anthropic raced to claim they'd each refuted a 27-year-old complexity-theory assumption before independent reviewers could check either one; and an AI agent chose and delivered its own gene therapy inside a living mouse's brain, then refused to keep operating when something it detected felt wrong.",
+  "publishDate": "2026-11-01T08:07:00-05:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 21925661,
+    "durationSeconds": 1342.876735,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-01T14:25:24.676Z",
+  "updatedAt": "2026-11-01T14:25:24.676Z"
+}
