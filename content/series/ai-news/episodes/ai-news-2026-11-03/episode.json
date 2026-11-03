@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-03",
+  "guid": "8eeb175d-a5f0-5d96-bf32-5317af55344f",
+  "externalId": "ai-news-2026-11-03",
+  "title": "Daily AI Newsletter — November 3, 2026",
+  "summary": "Anthropic warned investors Claude may be nearing a self-improvement threshold, OpenAI hired a former Army secretary for a national-security role, and Goldman Sachs pulled AI coding tools from its traders and bankers.",
+  "publishDate": "2026-11-03T08:10:30-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10114109,
+    "durationSeconds": 604.656327,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-03T14:23:48.299Z",
+  "updatedAt": "2026-11-03T14:23:48.299Z"
+}
