@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-04",
+  "guid": "9fa639c5-a7f0-51d5-8bed-887985f3e563",
+  "externalId": "ai-news-2026-11-04",
+  "title": "Daily AI Newsletter — November 4, 2026",
+  "summary": "Voters used the midterms to push back on AI data centers, a study found many widely cited claims about AI models don't hold up over time, and Anthropic built a way to prove which model actually answered you.",
+  "publishDate": "2026-11-04T08:07:30-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10374497,
+    "durationSeconds": 620.884263,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-04T14:18:13.732Z",
+  "updatedAt": "2026-11-04T14:18:13.732Z"
+}
