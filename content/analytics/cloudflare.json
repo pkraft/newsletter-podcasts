@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T14:39:49.088Z",
+  "updatedAt": "2026-11-05T14:45:55.271Z",
   "days": {
     "2026-07-19": {
       "ai-news/2026-07-19": {
@@ -725,6 +725,47 @@
         "bytes": 60833317
       }
     },
+    "2026-10-29": {
+      "ai-news/ai-news-2026-10-29": {
+        "requests": 54,
+        "cachedRequests": 50,
+        "bytes": 139874317
+      },
+      "ai-news/ai-news-2026-10-19": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 1078
+      },
+      "ai-news/ai-news-2026-10-20": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 1072
+      },
+      "ai-news/ai-news-2026-10-27": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 1096
+      },
+      "ai-news/ai-news-2026-10-28": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 1088
+      }
+    },
+    "2026-11-05": {
+      "ai-news/ai-news-2026-11-05": {
+        "requests": 1,
+        "cachedRequests": 0,
+        "bytes": 5735826
+      }
+    },
+    "2026-11-04": {
+      "ai-news/ai-news-2026-11-04": {
+        "requests": 18,
+        "cachedRequests": 16,
+        "bytes": 79757828
+      }
+    },
     "2026-11-03": {
       "ai-news/ai-news-2026-11-03": {
         "requests": 21,
@@ -763,33 +804,6 @@
         "requests": 23,
         "cachedRequests": 21,
         "bytes": 130065484
-      }
-    },
-    "2026-10-29": {
-      "ai-news/ai-news-2026-10-29": {
-        "requests": 54,
-        "cachedRequests": 50,
-        "bytes": 139874317
-      },
-      "ai-news/ai-news-2026-10-19": {
-        "requests": 1,
-        "cachedRequests": 0,
-        "bytes": 1078
-      },
-      "ai-news/ai-news-2026-10-20": {
-        "requests": 1,
-        "cachedRequests": 0,
-        "bytes": 1072
-      },
-      "ai-news/ai-news-2026-10-27": {
-        "requests": 1,
-        "cachedRequests": 0,
-        "bytes": 1096
-      },
-      "ai-news/ai-news-2026-10-28": {
-        "requests": 1,
-        "cachedRequests": 0,
-        "bytes": 1088
       }
     }
   }
