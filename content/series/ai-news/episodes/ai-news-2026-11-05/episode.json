@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-05",
+  "guid": "e96489af-21ec-504d-99c3-0cfc4b482e02",
+  "externalId": "ai-news-2026-11-05",
+  "title": "Daily AI Newsletter — November 5, 2026",
+  "summary": "OpenAI's GPT-6 Astra learned to rewrite other AI models by editing their weights, Anthropic lost its Claude Code lead to OpenAI, and OpenAI bought a startup to fix Git for coding agents.",
+  "publishDate": "2026-11-05T08:15:00-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5734732,
+    "durationSeconds": 330.903628,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-05T14:12:15.291Z",
+  "updatedAt": "2026-11-05T14:12:15.291Z"
+}
