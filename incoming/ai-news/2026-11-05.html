@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily AI Newsletter &mdash; November 5, 2026</title>
+<style>
+/* The only non-inline CSS: phone reflow. Gmail, Apple Mail and iOS honour it;
+   Outlook desktop ignores it and keeps the fixed 600px card, which is right
+   there. Everything else in this email is inlined. */
+@media only screen and (max-width:620px) {
+  .card { width:100% !important; }
+  .pad  { padding-left:20px !important; padding-right:20px !important; }
+  .wordmark { font-size:19px !important; letter-spacing:2px !important; }
+  .robot { width:128px !important; height:104px !important; }
+  .robotcell { width:128px !important; }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#EAE5DC; -webkit-text-size-adjust:100%;">
+<div style="display:none; max-height:0; overflow:hidden; opacity:0;">OpenAI's GPT-6 Astra learned to rewrite other AI models by editing their weights, Anthropic lost its Claude Code lead to OpenAI, and OpenAI </div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EAE5DC;">
+<tr><td align="center" style="padding:28px 12px 36px;">
+<table role="presentation" class="card" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FBF7F0;">
+
+<tr><td style="background-color:#071B3D; border-bottom:3px solid #5FD8F2;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="pad" valign="middle" style="padding:26px 12px 26px 32px;">
+      <div class="wordmark" style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:23px; font-weight:bold; letter-spacing:3px; text-transform:uppercase; color:#ffffff; line-height:1.15;">Daily AI Newsletter</div>
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; color:#8FE3F5; padding-top:9px;">Thursday &middot; November 5, 2026 &middot; 6 min read</div>
+    </td>
+    <td class="robotcell" width="196" valign="bottom" align="right" style="width:196px; font-size:0; line-height:0;">
+      <img class="robot" src="cid:robot-cutout" width="196" height="160" alt="" style="display:block; width:196px; height:160px; border:0;">
+    </td>
+  </tr></table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 4px;">
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:2.6px; text-transform:uppercase; color:#6E7F8D; padding-bottom:10px;">The brief</div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:17px; line-height:1.68; color:#1B2733;">OpenAI's GPT-6 Astra learned to rewrite other AI models by editing their weights, Anthropic lost its Claude Code lead to OpenAI, and OpenAI bought a startup to fix Git for coding agents.</div>
+</td></tr>
+
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Innovation</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/" style="color:#071B3D; text-decoration:none;">GPT-6 Astra reprograms other AI models directly through their weights</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">MIT researchers found that OpenAI's GPT-6 Astra can read and directly rewrite another model's weights without any conventional training step, boosting a Qwen model's math accuracy from 7.9% to 48.1% by altering just 0.016% of its parameters. Independent developer Simon Willison replicated a version of the same effect locally using a far smaller open-weight model, suggesting the trick isn't unique to frontier-scale systems. The finding describes a new way for one model to edit another, bypassing retraining entirely.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">If a model can rewrite another model's weights directly, improving a deployed model stops being purely a training-compute problem — it opens a cheaper, faster upgrade path that nobody has had to design defenses against yet.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Staffing</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/" style="color:#071B3D; text-decoration:none;">Anthropic's Claude Code product lead departs for OpenAI</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Catherine Wu, who led product for Claude Code at Anthropic, is moving to OpenAI to run product management for its Core Products group. The move is one of the more visible instances of the two labs poaching each other's leadership as both race to own the agentic-coding market where Claude Code and Codex compete directly.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Losing the person who shaped Anthropic's flagship coding product to the rival building its closest competitor is a concrete sign of how thin the talent pool for agentic-coding leadership has gotten, and how directly OpenAI is drawing from it.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Business</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/" style="color:#071B3D; text-decoration:none;">OpenAI acquires Pierre Computer Company to make Git keep up with coding agents</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">OpenAI is acquiring Pierre Computer Company, whose open-source tools already power parts of Codex, to rebuild Git workflows around the pace and scale of AI coding agents rather than individual human commits. The deal is pending regulatory approval.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Git's branch-and-commit model was built for people working at human speed; buying the team already patching that gap signals OpenAI sees version control itself, not just the model, as a bottleneck worth owning outright.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/" style="color:#071B3D; text-decoration:none;">Meta acquires AI coding startup Conductor</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Meta has acquired Conductor, a startup building AI-powered coding tools, folding its team and technology into Meta's own AI development efforts. Terms weren't disclosed.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Meta buying a coding-agent startup the same week OpenAI buys one too shows every major lab now treats owning its own developer tooling, not renting it from the ecosystem, as table stakes for competing in agentic coding.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/" style="color:#071B3D; text-decoration:none;">Agility Robotics becomes the first pure-play humanoid robot company to trade publicly</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Agility Robotics, maker of the Digit humanoid robot, began trading on public markets, making it the first company focused solely on humanoid robotics to do so. The listing gives investors a direct way to bet on humanoid robots as their own category, distinct from broader robotics or AI conglomerates.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A pure-play public stock forces the market to price humanoid robotics on its own commercial merits for the first time, rather than as a side bet buried inside a larger company's valuation.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/" style="color:#071B3D; text-decoration:none;">Google will cut off Search for schools that opt out of its AI tools, starting 2027</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Google told schools that, starting in early 2027, they must accept its AI features — Gemini and Gemini Notebook — alongside core Search, or lose access to Google Search entirely for student accounts. The policy follows backlash from schools and parents who wanted to restrict chatbot access for kids, which had pushed Google to let schools opt out in the first place.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Turning Search into leverage to force adoption of its AI products is a sharper kind of pressure than a default-on setting — it makes Search itself, a tool schools can't easily replace, newly conditional on accepting Google's AI.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Models</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://venturebeat.com/technology/ex-googlers-new-apache-2-0-model-ripple-65b-preview-claims-the-u-s-open-coding-lead-on-two-major-benchmarks" style="color:#071B3D; text-decoration:none;">A new open coding model claims the US open-weight lead on two benchmarks</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Ricursive Intelligence, a startup founded by ex-Google engineers, released Ripple-65B Preview, an Apache 2.0-licensed open-weight model it says leads other US-built open models on two major coding benchmarks. The model ships with downloadable weights and a low-cost hosted option.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A permissively licensed model beating other US open-weight entrants on coding benchmarks narrows the gap between what's freely downloadable and what labs charge for, adding pressure on closed coding assistants' pricing.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:8px 32px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td></tr>
+<tr><td class="pad" style="background-color:#FBF7F0; padding:22px 32px 26px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic; font-size:14px; line-height:1.6; color:#1B2733;">Same desk, same time tomorrow.</div>
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; line-height:1.7; color:#6E7F8D; padding-top:9px;">Generated by Claude Code.<br>Sources: The Decoder — GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights, Simon Willison — Qwen 3.8 27B on my laptop can interpret model weights, too, The Decoder — Anthropic loses product lead Catherine Wu behind Claude Code to OpenAI, The Decoder — OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents, TechCrunch — Meta acquires AI coding startup Conductor, TechCrunch — Agility is the first pure humanoid robot company on the stock market. Are you buying?, The Decoder — Schools that turn off Google's AI will lose search too starting in 2027, TechCrunch — Google faces backlash for plan that would turn off Search for schools that restrict AI, VentureBeat — Ex-Googlers' new Apache 2.0 model Ripple-65B Preview claims the U.S. open coding lead on two major benchmarks.</div>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
