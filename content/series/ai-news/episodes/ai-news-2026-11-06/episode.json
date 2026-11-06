@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-06",
+  "guid": "e6f0aecc-1de7-5688-a876-a4fad525dcbd",
+  "externalId": "ai-news-2026-11-06",
+  "title": "Daily AI Newsletter — November 6, 2026",
+  "summary": "An independent auditor said Anthropic's AI progress may have already outpaced the safety threshold it set for itself, OpenAI shipped a specialized model for hunting software exploits, and Anthropic let Claude read your bank accounts.",
+  "publishDate": "2026-11-06T08:06:09-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7627670,
+    "durationSeconds": 449.206644,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-06T14:14:58.568Z",
+  "updatedAt": "2026-11-06T14:14:58.568Z"
+}
