@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-07",
+  "guid": "7d453d97-5e0d-57f8-9932-eace5a59bddf",
+  "externalId": "ai-news-2026-11-07",
+  "title": "Daily AI Newsletter — November 7, 2026",
+  "summary": "OpenAI closed a funding round short of its target, enterprise spending data signaled AI growth plateauing, and researchers showed a Chinese model's political bias can be fine-tuned away.",
+  "publishDate": "2026-11-07T08:05:29-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7324231,
+    "durationSeconds": 430.251814,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-07T14:14:31.773Z",
+  "updatedAt": "2026-11-07T14:14:31.773Z"
+}
