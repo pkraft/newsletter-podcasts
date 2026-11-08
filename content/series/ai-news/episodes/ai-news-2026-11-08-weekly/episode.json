@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-08-weekly",
+  "guid": "f3186f0e-dc51-50b3-ace5-4e40d633e23c",
+  "externalId": "ai-news-2026-11-08-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — November 8, 2026",
+  "summary": "This week, the market and the ballot box turned on AI's spending story together — OpenAI's $30 billion raise closed at $11 billion while voters banned or restricted data centers in more than 20 localities and Anthropic's own IPO ran into investor resistance at $1.5 trillion; Anthropic's SEC filing warning that it may be nearing a dangerous self-improvement threshold turned out, per an independent auditor with privileged access, to likely already be months overdue; two of AI's most visible enterprise customers, Goldman Sachs and Revolut, pulled back from premium coding tools over cost; and labs kept racing each other to buy the version-control and security tooling that agentic coding now depends on.",
+  "publishDate": "2026-11-08T08:10:01-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 21671124,
+    "durationSeconds": 1326.917347,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-08T14:29:24.633Z",
+  "updatedAt": "2026-11-08T14:29:24.633Z"
+}
