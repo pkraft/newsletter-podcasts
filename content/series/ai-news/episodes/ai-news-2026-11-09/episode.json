@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-09",
+  "guid": "f3dee72c-ed75-5832-9bcf-c9fc071fb8af",
+  "externalId": "ai-news-2026-11-09",
+  "title": "Daily AI Newsletter — November 9, 2026",
+  "summary": "Nvidia's board opened an investigation into CEO Jensen Huang's conduct, Google expanded its TPU lineup to challenge Nvidia, and a new benchmark found AI coding agents still fail most real-world tasks.",
+  "publishDate": "2026-11-09T08:08:03-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10127065,
+    "durationSeconds": 605.425896,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-09T14:15:48.991Z",
+  "updatedAt": "2026-11-09T14:15:48.991Z"
+}
