@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-10",
+  "guid": "44e7d7f7-8fda-5cca-8b78-424d4f9c9584",
+  "externalId": "ai-news-2026-11-10",
+  "title": "Daily AI Newsletter — November 10, 2026",
+  "summary": "A securities lawsuit accused Nvidia of hiding what it knew about CEO Jensen Huang's scandal, Anthropic set terms for its IPO, and shipped new Claude models alongside warnings about their own self-improvement pace.",
+  "publishDate": "2026-11-10T08:08:09-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9870859,
+    "durationSeconds": 589.411769,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-10T14:16:03.945Z",
+  "updatedAt": "2026-11-10T14:16:03.945Z"
+}
