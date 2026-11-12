@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-12",
+  "guid": "0630c4f8-ea99-579f-b1d2-02cda38e03c6",
+  "externalId": "ai-news-2026-11-12",
+  "title": "Daily AI Newsletter — November 12, 2026",
+  "summary": "Anthropic revealed its AI ported itself to a new chip platform in days, Google DeepMind used AI agents to formally verify Signal's encryption, and Meta's longtime infrastructure chief is stepping back.",
+  "publishDate": "2026-11-12T08:08:48-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8681347,
+    "durationSeconds": 515.077551,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-12T14:21:20.439Z",
+  "updatedAt": "2026-11-12T14:21:20.439Z"
+}
