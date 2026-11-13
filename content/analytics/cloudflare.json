@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:19:42.911Z",
+  "updatedAt": "2026-11-13T14:39:18.080Z",
   "days": {
     "2026-07-19": {
       "ai-news/2026-07-19": {
@@ -806,6 +806,20 @@
         "bytes": 72588346
       }
     },
+    "2026-11-06": {
+      "ai-news/ai-news-2026-11-06": {
+        "requests": 22,
+        "cachedRequests": 20,
+        "bytes": 94930510
+      }
+    },
+    "2026-11-12": {
+      "ai-news/ai-news-2026-11-12": {
+        "requests": 21,
+        "cachedRequests": 19,
+        "bytes": 133663387
+      }
+    },
     "2026-11-10": {
       "ai-news/ai-news-2026-11-10": {
         "requests": 22,
@@ -832,13 +846,6 @@
         "requests": 22,
         "cachedRequests": 20,
         "bytes": 106163236
-      }
-    },
-    "2026-11-06": {
-      "ai-news/ai-news-2026-11-06": {
-        "requests": 22,
-        "cachedRequests": 20,
-        "bytes": 94930510
       }
     }
   }
