@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-13",
+  "guid": "00df83d4-4e56-506a-8c27-5bd47512fb31",
+  "externalId": "ai-news-2026-11-13",
+  "title": "Daily AI Newsletter — November 13, 2026",
+  "summary": "Nvidia's CEO resigned amid a spying scandal, Anthropic said its AI has crossed a safety threshold for speeding up its own research, and the company piled on cloud commitments as a major compute deal turned shaky.",
+  "publishDate": "2026-11-13T08:05:32-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8413853,
+    "durationSeconds": 498.362132,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-13T14:14:40.470Z",
+  "updatedAt": "2026-11-13T14:14:40.470Z"
+}
