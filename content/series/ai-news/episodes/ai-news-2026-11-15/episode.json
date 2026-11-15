@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-15",
+  "guid": "167b02e7-3b38-5191-bd23-fc4eb4783b7f",
+  "externalId": "ai-news-2026-11-15",
+  "title": "Daily AI Newsletter — November 15, 2026",
+  "summary": "A firm linked to Jensen Huang's associate faces allegations of funneling Nvidia chips to China, Meituan trained a major new agent model without any Nvidia hardware, and Elon Musk led a push to reinstate Huang as Nvidia's CEO.",
+  "publishDate": "2026-11-15T08:20:00-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5703387,
+    "durationSeconds": 328.93551,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-15T14:11:26.218Z",
+  "updatedAt": "2026-11-15T14:11:26.218Z"
+}
