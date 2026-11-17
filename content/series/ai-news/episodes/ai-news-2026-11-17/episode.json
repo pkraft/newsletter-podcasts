@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-17",
+  "guid": "ec5b6fe7-54cd-5d71-9526-074a2a62c4b8",
+  "externalId": "ai-news-2026-11-17",
+  "title": "Daily AI Newsletter — November 17, 2026",
+  "summary": "Google said it caught a cyberattack running with no human involved, OpenAI's model helped chip away at a long-unsolved physics problem, and Anthropic found AI agents work better when they're taught what to forget.",
+  "publishDate": "2026-11-17T08:13:46-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9305360,
+    "durationSeconds": 554.065601,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-17T14:21:35.379Z",
+  "updatedAt": "2026-11-17T14:21:35.379Z"
+}
