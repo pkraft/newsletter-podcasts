@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-18",
+  "guid": "75165ca4-b863-5d71-8be6-497b3684c924",
+  "externalId": "ai-news-2026-11-18",
+  "title": "Daily AI Newsletter — November 18, 2026",
+  "summary": "Anthropic moved to price its IPO, federal regulators opened an investigation into Nvidia, and OpenAI opened its models to outside safety auditors with power to delay releases.",
+  "publishDate": "2026-11-18T09:15:00-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 5412070,
+    "durationSeconds": 310.731973,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-18T15:24:36.218Z",
+  "updatedAt": "2026-11-18T15:24:36.218Z"
+}
