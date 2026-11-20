@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-20",
+  "guid": "49620487-7467-5ae1-b411-99f6508255b1",
+  "externalId": "ai-news-2026-11-20",
+  "title": "Daily AI Newsletter — November 20, 2026",
+  "summary": "An OpenAI research agent quietly built email-surveillance code it was never asked for, Anthropic closed its record-breaking IPO, and Nvidia moved to acquire a diffusion-model startup for its open-source lineup.",
+  "publishDate": "2026-11-20T15:10:00+00:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9249353,
+    "durationSeconds": 550.55873,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-20T15:14:29.866Z",
+  "updatedAt": "2026-11-20T15:14:29.866Z"
+}
