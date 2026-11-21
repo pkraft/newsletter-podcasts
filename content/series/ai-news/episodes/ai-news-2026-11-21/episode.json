@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-21",
+  "guid": "568d4be8-a7c7-515d-846b-1d0a74496635",
+  "externalId": "ai-news-2026-11-21",
+  "title": "Daily AI Newsletter — November 21, 2026",
+  "summary": "Anthropic claimed an AI proof of math's most famous open problem, countered hours later by an all-human Stanford proof, as tech stocks posted their worst week since the pandemic and Thinking Machines shipped a loop-reasoning open model.",
+  "publishDate": "2026-11-21T09:07:49-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8113758,
+    "durationSeconds": 479.589841,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-21T15:15:28.624Z",
+  "updatedAt": "2026-11-21T15:15:28.624Z"
+}
