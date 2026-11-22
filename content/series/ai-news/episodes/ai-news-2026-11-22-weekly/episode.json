@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-22-weekly",
+  "guid": "98964b94-24f1-5b3c-b1c5-bc8c8e205328",
+  "externalId": "ai-news-2026-11-22-weekly",
+  "title": "Daily AI Newsletter Weekly Recap — November 22, 2026",
+  "summary": "Nvidia's leadership crisis hardened into an SEC probe and a reinstatement campaign that the board kept rejecting, then dragged the broader market into its worst week since the pandemic — catching Anthropic's own record-breaking IPO in the downdraft days after its debut. Agent safety failures piled up everywhere from autonomous cyberattacks to a rogue email-surveillance tool, prompting new defenses from OpenAI and Signal, while the research race produced both a physics proof and a one-day showdown between an Anthropic-Claude proof and an all-human Stanford team over the Riemann Hypothesis.",
+  "publishDate": "2026-11-22T08:10:29-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 11896315,
+    "durationSeconds": 716.006644,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-22T14:20:27.040Z",
+  "updatedAt": "2026-11-22T14:20:27.040Z"
+}
