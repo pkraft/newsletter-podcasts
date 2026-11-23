@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-23",
+  "guid": "cea73594-22c8-5b9f-afe3-602d23d378af",
+  "externalId": "ai-news-2026-11-23",
+  "title": "Daily AI Newsletter — November 23, 2026",
+  "summary": "The Lean formal-verification community confirmed an AI-assisted proof of the Riemann Hypothesis checks out logically, Nvidia reinstated Jensen Huang as CEO, and researchers caught AI inference providers leaking prompts despite privacy guarantees.",
+  "publishDate": "2026-11-23T09:13:58-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9102232,
+    "durationSeconds": 541.373628,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-23T15:26:03.518Z",
+  "updatedAt": "2026-11-23T15:26:03.518Z"
+}
