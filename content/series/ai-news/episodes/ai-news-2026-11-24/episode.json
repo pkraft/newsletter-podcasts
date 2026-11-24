@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-24",
+  "guid": "98f25139-5651-55db-9958-fe6ee1ff19b9",
+  "externalId": "ai-news-2026-11-24",
+  "title": "Daily AI Newsletter — November 24, 2026",
+  "summary": "OpenAI and Anthropic staff reportedly worry their unreleased models can't be safely controlled, Anthropic launched AI agents that approve code changes on their own, and regulators blacklisted a Nvidia partner over suspected chip smuggling to China.",
+  "publishDate": "2026-11-24T09:08:29-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 7666542,
+    "durationSeconds": 451.644104,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-24T15:16:01.375Z",
+  "updatedAt": "2026-11-24T15:16:01.375Z"
+}
