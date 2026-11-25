@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily AI Newsletter &mdash; November 25, 2026</title>
+<style>
+/* The only non-inline CSS: phone reflow. Gmail, Apple Mail and iOS honour it;
+   Outlook desktop ignores it and keeps the fixed 600px card, which is right
+   there. Everything else in this email is inlined. */
+@media only screen and (max-width:620px) {
+  .card { width:100% !important; }
+  .pad  { padding-left:20px !important; padding-right:20px !important; }
+  .wordmark { font-size:19px !important; letter-spacing:2px !important; }
+  .robot { width:128px !important; height:104px !important; }
+  .robotcell { width:128px !important; }
+}
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#EAE5DC; -webkit-text-size-adjust:100%;">
+<div style="display:none; max-height:0; overflow:hidden; opacity:0;">DeepMind had AI agents help find faster quantum algorithms, OpenAI claimed to resolve a decades-old math problem, and Anthropic's stock drop</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EAE5DC;">
+<tr><td align="center" style="padding:28px 12px 36px;">
+<table role="presentation" class="card" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FBF7F0;">
+
+<tr><td style="background-color:#071B3D; border-bottom:3px solid #5FD8F2;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td class="pad" valign="middle" style="padding:26px 12px 26px 32px;">
+      <div class="wordmark" style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:23px; font-weight:bold; letter-spacing:3px; text-transform:uppercase; color:#ffffff; line-height:1.15;">Daily AI Newsletter</div>
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; letter-spacing:1.8px; text-transform:uppercase; color:#8FE3F5; padding-top:9px;">Wednesday &middot; November 25, 2026 &middot; 7 min read</div>
+    </td>
+    <td class="robotcell" width="196" valign="bottom" align="right" style="width:196px; font-size:0; line-height:0;">
+      <img class="robot" src="cid:robot-cutout" width="196" height="160" alt="" style="display:block; width:196px; height:160px; border:0;">
+    </td>
+  </tr></table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 4px;">
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:2.6px; text-transform:uppercase; color:#6E7F8D; padding-bottom:10px;">The brief</div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:17px; line-height:1.68; color:#1B2733;">DeepMind had AI agents help find faster quantum algorithms, OpenAI claimed to resolve a decades-old math problem, and Anthropic's stock dropped below its IPO price just days after going public.</div>
+</td></tr>
+
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Innovation</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/" style="color:#071B3D; text-decoration:none;">DeepMind uses AI agents to discover faster, formally verified quantum algorithms</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Google DeepMind and Google Quantum AI had teams of AI agents propose new quantum programs inside the Lean proof assistant, which then checks each one's correctness and resource cost before it's accepted. The approach found notably more efficient circuits for several tasks, including quantum arithmetic and simulations relevant to fusion, photochemistry, and drug metabolism, with every accepted program shipping a machine-checked proof rather than just a benchmark score. The resulting circuits still demand far more qubits and operations than the first fault-tolerant quantum computers are expected to have, and the preprint has not been peer-reviewed.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Letting agents search for algorithms is only as trustworthy as the way you check their output, and pairing the search with a formal proof checker means a wrong answer fails verification outright instead of quietly shipping as a plausible-looking result.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound" style="color:#071B3D; text-decoration:none;">OpenAI claims a lower bound pinning the matrix-multiplication exponent at exactly 9/4</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">OpenAI posted an unreviewed preprint claiming to prove a matching lower bound on omega, the exponent governing how fast two matrices can be multiplied — not just a new upper bound, which a separate academic paper had already pushed down to 9/4 in October. If the lower bound holds, it would close a question studied since the 1960s and overturn the long-held conjecture among complexity theorists that omega's true value is 2. The paper lists no individual human authors, and OpenAI's own repository describes these preprints as &quot;raw research material that may have issues&quot;; the accompanying Lean proof covers only a narrower case than the paper's full claim.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">OpenAI has already drawn public criticism this year for publishing math claims this way, under the company's name and without peer review, and a result disruptive enough to overturn a fifty-year-old conjecture is exactly the kind of claim that needs independent verification before it means anything.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities" style="color:#071B3D; text-decoration:none;">OpenAI says GPT-6 can design new proteins, not just predict the shape of existing ones</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">OpenAI says its GPT-6 models can design new protein structures and sequences from scratch using the same reasoning and code-execution abilities they apply to math and programming, rather than only predicting the shape of proteins that already exist, the way tools like AlphaFold do. In lab testing, OpenAI found evidence of actual binding activity for designs targeting five different proteins, meaning at least some of the model's output functioned as real proteins rather than just plausible-looking sequences.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A general-purpose language model producing wet-lab-verified biological designs, instead of only pattern-matching on sequences it has already seen, pushes general AI models into a category of work the industry has mostly left to purpose-built biology models until now.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Business</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/" style="color:#071B3D; text-decoration:none;">Anthropic's stock falls below its IPO price, giving back gains from its Nasdaq debut week</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Anthropic shares traded as low as $76 on Tuesday, down nearly 12% from the prior close and below the $83 IPO price, barely a week after the stock opened trading at $111.50 a share. Falling below the offer price is typically read as a bad sign, since underwriters price an IPO at a discount to where they expect it to trade afterward. Nvidia sold off more than 7% the same day, giving back part of Monday's rally, so the drop wasn't isolated to Anthropic alone.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Anthropic's stock is now the market's first real-time read on what public investors think a frontier AI lab is worth once trading, not a private funding round, sets the price, and a slide below the offer price this soon puts pressure on every other AI company using Anthropic's valuation as a reference point.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Tools</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://openai.com/index/introducing-shirudo" style="color:#071B3D; text-decoration:none;">OpenAI and Cisco release Shirudo, letting AI agents shield unpatched systems without downtime</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">OpenAI and Cisco introduced Shirudo, an open-source Linux runtime (built on eBPF) that lets AI agents detect and shield running systems against known exploits while a patch is still being rolled out, without requiring a reboot. The goal is to close the window between a vulnerability becoming public and a system actually getting patched — the gap most real attacks exploit, rather than some novel flaw.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">A UK cyber agency warned this same week that most AI-driven attacks succeed by exploiting long-standing basic security flaws, not new ones; giving defenders a safe, automated way to act during the patch gap targets that exact bottleneck instead of adding another detection tool that still waits on a human to apply the fix.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Models</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://simonwillison.net/2026/Nov/23/glm-54/" style="color:#071B3D; text-decoration:none;">Z.ai ships GLM-5.4, its first model built on a 'loop transformer' architecture</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Z.ai released GLM-5.4, built on what it calls a loop transformer: instead of adding more distinct layers, the model reruns a shared set of weights multiple times within a single forward pass, aimed at improving general coding ability. Simon Willison tested the model directly through Z.ai's API, including his standard &quot;pelican riding a bicycle&quot; benchmark, and confirmed the architecture is live in a shipping model rather than just a research idea.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Most model gains this year have come from scaling up data and parameter count; betting on re-running the same reasoning layers repeatedly instead is a cheaper lever to pull if it holds up, and it's worth watching whether other labs follow if GLM-5.4 performs well.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:26px 32px 14px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="8" valign="middle" style="width:8px;"><table role="presentation" width="8" cellpadding="0" cellspacing="0" border="0"><tr><td height="8" style="width:8px; height:8px; line-height:8px; font-size:0; background-color:#5FD8F2;">&nbsp;</td></tr></table></td>
+<td width="1" valign="middle" style="padding:0 12px; font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; font-weight:bold; letter-spacing:2.4px; text-transform:uppercase; color:#6E7F8D; white-space:nowrap;">Research</td>
+<td width="100%" valign="middle"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td>
+</tr>
+</table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/" style="color:#071B3D; text-decoration:none;">DeepMind: AI agents already run part of its own Gemini research, but self-improvement remains distant</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Google DeepMind now uses AI agents to run experiments for upcoming Gemini models, but research chief Koray Kavukcuoglu says the lab remains far from recursive self-improvement, where a model would meaningfully accelerate its own development. DeepMind also keeps the agents' chains of thought untrained during this process specifically to preserve them as a channel for human oversight.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Outside warnings about an AI-driven &quot;intelligence explosion&quot; have circulated for months; a lab insider's own account of using agents operationally day-to-day, while explicitly denying the faster, self-accelerating leap those warnings describe, is a more grounded data point than speculation from either side of that debate.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://www.anthropic.com/research/working-with-ai" style="color:#071B3D; text-decoration:none;">Anthropic study finds AI adoption fails on company structure, not on teaching people the tools</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">Anthropic studied nearly 300 AI deployments across 58 US companies and found that one in five delivers no measurable business value, with outdated organizational structures, not weak models or undertrained staff, cited as the biggest barrier to getting value out of AI.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Most public debate over why AI projects fail blames the model or the workforce; a study from one of the labs building those models instead pointing at decisions management hasn't made is a harder, less flattering diagnosis than buying a better model or running more training sessions.</div>
+    </td></tr>
+  </table>
+</td></tr>
+<tr><td class="pad" style="padding:0 32px 22px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:19px; line-height:1.38; font-weight:bold; color:#071B3D; padding-bottom:9px;"><a href="https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/" style="color:#071B3D; text-decoration:none;">A benchmark built from 10 million real interactions finds AI agents fail everyday tasks a third of the time</a></div>
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:15px; line-height:1.72; color:#33414E; padding-bottom:14px;">ShellBench, built by the OpenClaw Foundation with Parsewave, Hugging Face, Red Hat, and UC Berkeley from more than 10 million anonymized real-world agent interactions, tested OpenAI's GPT-6 Astra, Anthropic's Claude Fable 5.2, and Meta's Muse Wonder models on messy personal-life tasks: emails, calendars, receipts, phishing attempts, school pickups, and invoice payments. The agents failed more than a third of attempts overall, with 15.7% of all attempts failing a safety requirement outright, mishandling school-pickup logistics 79.5% of the time, and recommending the wrong or a duplicate invoice payment 40.3% of the time. Even GPT-6 Astra, the top scorer, completed the same task correctly in all three repeated runs less than half the time.</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr><td style="background-color:#FBF2E7; border-left:3px solid #E8A15C; padding:13px 16px;">
+      <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:10px; font-weight:bold; letter-spacing:1.8px; text-transform:uppercase; color:#B4712A; padding-bottom:6px;">Why it matters</div>
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; line-height:1.68; color:#4A4038;">Labs mostly publish scores on benchmarks built to be measured; a benchmark built from logs of what people actually ask agents to do is far harder to game, and an 80% failure rate on something as routine as school pickup is a concrete number to weigh against any lab's claim that agents are ready to run unsupervised.</div>
+    </td></tr>
+  </table>
+</td></tr>
+
+<tr><td class="pad" style="padding:8px 32px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#D5CEC0;">&nbsp;</td></tr></table></td></tr>
+<tr><td class="pad" style="background-color:#FBF7F0; padding:22px 32px 26px;">
+  <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-style:italic; font-size:14px; line-height:1.6; color:#1B2733;">Same desk, same time tomorrow.</div>
+  <div style="font-family:'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, sans-serif; font-size:11px; line-height:1.7; color:#6E7F8D; padding-top:9px;">Generated by Claude Code.<br>Sources: DeepMind: Finding faster quantum algorithms with agents and formal verification, arXiv: Discovering formally verified quantum programs with AI, alphaXiv: The matrix multiplication exponent is nine-fourths (lower bound), OpenAI/math (GitHub): The matrix multiplication exponent is nine-fourths, TechCrunch: Anthropic shares fall below IPO price, a worrying sign for AI startups, OpenAI: GPT-6 models demonstrate intrinsic protein design capabilities, OpenAI: Introducing Shirudo, Simon Willison: GLM-5.4: Toward Generalized Coding with Our First Loop Transformer, The Decoder: AI agents now control part of DeepMind's compute for Gemini experiments, but recursive self-improvement remains distant, Anthropic: Working with AI, The Decoder: Anthropic study shows the hardest part of adopting AI at work has little to do with learning the tools, TechCrunch: Even the best AI agents struggle with everyday life.</div>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>

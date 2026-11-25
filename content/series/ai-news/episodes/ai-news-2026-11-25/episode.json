@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-25",
+  "guid": "76f4116b-44c4-5266-b5eb-0273f7897b9c",
+  "externalId": "ai-news-2026-11-25",
+  "title": "Daily AI Newsletter — November 25, 2026",
+  "summary": "DeepMind had AI agents help find faster quantum algorithms, OpenAI claimed to resolve a decades-old math problem, and Anthropic's stock dropped below its IPO price just days after going public.",
+  "publishDate": "2026-11-25T09:15:00-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 9039120,
+    "durationSeconds": 537.438798,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-25T15:17:38.694Z",
+  "updatedAt": "2026-11-25T15:17:38.694Z"
+}
