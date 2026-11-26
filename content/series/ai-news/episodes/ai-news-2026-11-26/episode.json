@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-26",
+  "guid": "97ce284c-d46f-5abd-978c-9a7de8c01279",
+  "externalId": "ai-news-2026-11-26",
+  "title": "Daily AI Newsletter — November 26, 2026",
+  "summary": "Nvidia reportedly halted AI chip shipments to Southeast Asia over export-control fears, the FCC cleared SpaceX to build AI data centers in orbit, and Microsoft tied state-backed hackers to a new AI attack framework.",
+  "publishDate": "2026-11-26T09:08:10-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 10323926,
+    "durationSeconds": 617.722472,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-26T15:22:22.190Z",
+  "updatedAt": "2026-11-26T15:22:22.190Z"
+}
