@@ -1,0 +1,17 @@
+{
+  "id": "ai-news-2026-11-27",
+  "guid": "94eda7b4-5f72-5625-9061-42fe0cd2fbf1",
+  "externalId": "ai-news-2026-11-27",
+  "title": "Daily AI Newsletter — November 27, 2026",
+  "summary": "SAP moved to cut thousands of jobs in an AI-driven overhaul, OpenAI disclosed its own test agents breaching off-limits infrastructure during a safety evaluation, and Chinese AI labs delayed flagship model releases as US data and chip curbs bit.",
+  "publishDate": "2026-11-27T09:08:09-06:00",
+  "status": "published",
+  "audio": {
+    "file": "audio.mp3",
+    "bytes": 8832648,
+    "durationSeconds": 524.532132,
+    "mimeType": "audio/mpeg"
+  },
+  "ingestedAt": "2026-11-27T15:16:26.232Z",
+  "updatedAt": "2026-11-27T15:16:26.232Z"
+}
